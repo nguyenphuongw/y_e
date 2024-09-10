@@ -1,0 +1,2315 @@
+<!--THEMIFY CACHE-->
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1">
+    <style id="tb_inline_styles" data-no-optimize="1">
+        .tb_animation_on {
+            overflow-x: hidden
+        }
+
+        .themify_builder .wow {
+            visibility: hidden;
+            animation-fill-mode: both
+        }
+
+        [data-tf-animation] {
+            will-change: transform, opacity, visibility
+        }
+
+        .themify_builder .tf_lax_done {
+            transition-duration: .8s;
+            transition-timing-function: cubic-bezier(.165, .84, .44, 1)
+        }
+
+        [data-sticky-active].tb_sticky_scroll_active {
+            z-index: 1
+        }
+
+        [data-sticky-active].tb_sticky_scroll_active .hide-on-stick {
+            display: none
+        }
+
+        @media(min-width:1281px) {
+            .hide-desktop {
+                width: 0 !important;
+                height: 0 !important;
+                padding: 0 !important;
+                visibility: hidden !important;
+                margin: 0 !important;
+                display: table-column !important;
+                background: 0 !important;
+                content-visibility: hidden;
+                overflow: hidden !important
+            }
+        }
+
+        @media(min-width:769px) and (max-width:1280px) {
+            .hide-tablet_landscape {
+                width: 0 !important;
+                height: 0 !important;
+                padding: 0 !important;
+                visibility: hidden !important;
+                margin: 0 !important;
+                display: table-column !important;
+                background: 0 !important;
+                content-visibility: hidden;
+                overflow: hidden !important
+            }
+        }
+
+        @media(min-width:681px) and (max-width:768px) {
+            .hide-tablet {
+                width: 0 !important;
+                height: 0 !important;
+                padding: 0 !important;
+                visibility: hidden !important;
+                margin: 0 !important;
+                display: table-column !important;
+                background: 0 !important;
+                content-visibility: hidden;
+                overflow: hidden !important
+            }
+        }
+
+        @media(max-width:680px) {
+            .hide-mobile {
+                width: 0 !important;
+                height: 0 !important;
+                padding: 0 !important;
+                visibility: hidden !important;
+                margin: 0 !important;
+                display: table-column !important;
+                background: 0 !important;
+                content-visibility: hidden;
+                overflow: hidden !important
+            }
+        }
+
+        @media(max-width:768px) {
+            div.module-gallery-grid {
+                --galn: var(--galt)
+            }
+        }
+
+        @media(max-width:680px) {
+            .themify_map.tf_map_loaded {
+                width: 100% !important
+            }
+
+            .ui.builder_button,
+            .ui.nav li a {
+                padding: .525em 1.15em
+            }
+
+            .fullheight>.row_inner:not(.tb_col_count_1) {
+                min-height: 0
+            }
+
+            div.module-gallery-grid {
+                --galn: var(--galm);
+                gap: 8px
+            }
+        }
+    </style><noscript>
+        <style>
+            .themify_builder .wow,
+            .wow .tf_lazy {
+                visibility: visible !important
+            }
+        </style>
+    </noscript>
+    <style id="tf_lazy_style" data-no-optimize="1">
+        .tf_svg_lazy {
+            content-visibility: auto;
+            background-size: 100% 25% !important;
+            background-repeat: no-repeat !important;
+            background-position: 0 0, 0 33.4%, 0 66.6%, 0 100% !important;
+            transition: filter .3s linear !important;
+            filter: blur(25px) !important;
+            transform: translateZ(0)
+        }
+
+        .tf_svg_lazy_loaded {
+            filter: blur(0) !important
+        }
+
+        [data-lazy]:is(.module, .module_row:not(.tb_first)),
+        .module[data-lazy] .ui,
+        .module_row[data-lazy]:not(.tb_first):is(>.row_inner, .module_column[data-lazy], .module_subrow[data-lazy]) {
+            background-image: none !important
+        }
+    </style><noscript>
+        <style>
+            .tf_svg_lazy {
+                display: none !important
+            }
+        </style>
+    </noscript>
+    <style id="tf_lazy_common" data-no-optimize="1">
+        img {
+            max-width: 100%;
+            height: auto
+        }
+
+        :where(.tf_in_flx, .tf_flx) {
+            display: inline-flex;
+            flex-wrap: wrap;
+            place-items: center
+        }
+
+        .tf_fa,
+        :is(em, i) tf-lottie {
+            display: inline-block;
+            vertical-align: middle
+        }
+
+        :is(em, i) tf-lottie {
+            width: 1.5em;
+            height: 1.5em
+        }
+
+        .tf_fa {
+            width: 1em;
+            height: 1em;
+            stroke-width: 0;
+            stroke: currentColor;
+            overflow: visible;
+            fill: currentColor;
+            pointer-events: none;
+            text-rendering: optimizeSpeed;
+            /* buffered-rendering: static; */
+        }
+
+        #tf_svg symbol {
+            overflow: visible
+        }
+
+        :where(.tf_lazy) {
+            position: relative;
+            visibility: visible;
+            display: block;
+            opacity: .3
+        }
+
+        .wow .tf_lazy:not(.tf_swiper-slide) {
+            visibility: hidden;
+            opacity: 1
+        }
+
+        div.tf_audio_lazy audio {
+            visibility: hidden;
+            height: 0;
+            display: inline
+        }
+
+        .mejs-container {
+            visibility: visible
+        }
+
+        .tf_iframe_lazy {
+            transition: opacity .3s ease-in-out;
+            min-height: 10px
+        }
+
+        :where(.tf_flx),
+        .tf_swiper-wrapper {
+            display: flex
+        }
+
+        .tf_swiper-slide {
+            flex-shrink: 0;
+            opacity: 0;
+            width: 100%;
+            height: 100%
+        }
+
+        .tf_swiper-wrapper>br,
+        .tf_lazy.tf_swiper-wrapper .tf_lazy:after,
+        .tf_lazy.tf_swiper-wrapper .tf_lazy:before {
+            display: none
+        }
+
+        .tf_lazy:after,
+        .tf_lazy:before {
+            content: '';
+            display: inline-block;
+            position: absolute;
+            width: 10px !important;
+            height: 10px !important;
+            margin: 0 3px;
+            top: 50% !important;
+            inset-inline: auto 50% !important;
+            border-radius: 100%;
+            background-color: currentColor;
+            visibility: visible;
+            animation: tf-hrz-loader infinite .75s cubic-bezier(.2, .68, .18, 1.08)
+        }
+
+        .tf_lazy:after {
+            width: 6px !important;
+            height: 6px !important;
+            inset-inline: 50% auto !important;
+            margin-top: 3px;
+            animation-delay: -.4s
+        }
+
+        @keyframes tf-hrz-loader {
+
+            0%,
+            100% {
+                transform: scale(1);
+                opacity: 1
+            }
+
+            50% {
+                transform: scale(.1);
+                opacity: .6
+            }
+        }
+
+        .tf_lazy_lightbox {
+            position: fixed;
+            background: rgba(11, 11, 11, .8);
+            color: #ccc;
+            top: 0;
+            left: 0;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            z-index: 999
+        }
+
+        .tf_lazy_lightbox .tf_lazy:after,
+        .tf_lazy_lightbox .tf_lazy:before {
+            background: #fff
+        }
+
+        .tf_vd_lazy,
+        tf-lottie {
+            display: flex;
+            flex-wrap: wrap
+        }
+
+        tf-lottie {
+            aspect-ratio: 1.777
+        }
+
+        .tf_w.tf_vd_lazy video {
+            width: 100%;
+            height: auto;
+            position: static;
+            object-fit: cover
+        }
+    </style>
+    <title>Coffee &#8211; Demo for Coffee</title>
+    <script type="text/template" id="tmpl-variation-template"><div class="woocommerce-variation-description">{{{ data.variation.variation_description }}}</div><div class="woocommerce-variation-price">{{{ data.variation.price_html }}}</div><div class="woocommerce-variation-availability">{{{ data.variation.availability_html }}}</div>
+</script>
+    <script type="text/template" id="tmpl-unavailable-variation-template"><p>Sorry, this product is unavailable. Please choose a different combination.</p>
+</script>
+    <meta name="robots" content="max-image-preview:large" />
+    <link rel="alternate" type="application/rss+xml" title="Coffee &raquo; Feed"
+        href="https://themify.org/ultra-coffee/feed/" />
+    <link rel="alternate" type="application/rss+xml" title="Coffee &raquo; Comments Feed"
+        href="https://themify.org/ultra-coffee/comments/feed/" />
+    <style id="safe-svg-svg-icon-style-inline-css">
+        .safe-svg-cover {
+            text-align: center
+        }
+
+        .safe-svg-cover .safe-svg-inside {
+            display: inline-block;
+            max-width: 100%
+        }
+
+        .safe-svg-cover svg {
+            height: 100%;
+            max-height: 100%;
+            max-width: 100%;
+            width: 100%
+        }
+    </style>
+    <style id="global-styles-inline-css">
+        body {
+            --wp--preset--color--black: #000000;
+            --wp--preset--color--cyan-bluish-gray: #abb8c3;
+            --wp--preset--color--white: #ffffff;
+            --wp--preset--color--pale-pink: #f78da7;
+            --wp--preset--color--vivid-red: #cf2e2e;
+            --wp--preset--color--luminous-vivid-orange: #ff6900;
+            --wp--preset--color--luminous-vivid-amber: #fcb900;
+            --wp--preset--color--light-green-cyan: #7bdcb5;
+            --wp--preset--color--vivid-green-cyan: #00d084;
+            --wp--preset--color--pale-cyan-blue: #8ed1fc;
+            --wp--preset--color--vivid-cyan-blue: #0693e3;
+            --wp--preset--color--vivid-purple: #9b51e0;
+            --wp--preset--gradient--vivid-cyan-blue-to-vivid-purple: linear-gradient(135deg, rgba(6, 147, 227, 1) 0%, rgb(155, 81, 224) 100%);
+            --wp--preset--gradient--light-green-cyan-to-vivid-green-cyan: linear-gradient(135deg, rgb(122, 220, 180) 0%, rgb(0, 208, 130) 100%);
+            --wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange: linear-gradient(135deg, rgba(252, 185, 0, 1) 0%, rgba(255, 105, 0, 1) 100%);
+            --wp--preset--gradient--luminous-vivid-orange-to-vivid-red: linear-gradient(135deg, rgba(255, 105, 0, 1) 0%, rgb(207, 46, 46) 100%);
+            --wp--preset--gradient--very-light-gray-to-cyan-bluish-gray: linear-gradient(135deg, rgb(238, 238, 238) 0%, rgb(169, 184, 195) 100%);
+            --wp--preset--gradient--cool-to-warm-spectrum: linear-gradient(135deg, rgb(74, 234, 220) 0%, rgb(151, 120, 209) 20%, rgb(207, 42, 186) 40%, rgb(238, 44, 130) 60%, rgb(251, 105, 98) 80%, rgb(254, 248, 76) 100%);
+            --wp--preset--gradient--blush-light-purple: linear-gradient(135deg, rgb(255, 206, 236) 0%, rgb(152, 150, 240) 100%);
+            --wp--preset--gradient--blush-bordeaux: linear-gradient(135deg, rgb(254, 205, 165) 0%, rgb(254, 45, 45) 50%, rgb(107, 0, 62) 100%);
+            --wp--preset--gradient--luminous-dusk: linear-gradient(135deg, rgb(255, 203, 112) 0%, rgb(199, 81, 192) 50%, rgb(65, 88, 208) 100%);
+            --wp--preset--gradient--pale-ocean: linear-gradient(135deg, rgb(255, 245, 203) 0%, rgb(182, 227, 212) 50%, rgb(51, 167, 181) 100%);
+            --wp--preset--gradient--electric-grass: linear-gradient(135deg, rgb(202, 248, 128) 0%, rgb(113, 206, 126) 100%);
+            --wp--preset--gradient--midnight: linear-gradient(135deg, rgb(2, 3, 129) 0%, rgb(40, 116, 252) 100%);
+            --wp--preset--font-size--small: 13px;
+            --wp--preset--font-size--medium: 20px;
+            --wp--preset--font-size--large: 36px;
+            --wp--preset--font-size--x-large: 42px;
+            --wp--preset--spacing--20: 0.44rem;
+            --wp--preset--spacing--30: 0.67rem;
+            --wp--preset--spacing--40: 1rem;
+            --wp--preset--spacing--50: 1.5rem;
+            --wp--preset--spacing--60: 2.25rem;
+            --wp--preset--spacing--70: 3.38rem;
+            --wp--preset--spacing--80: 5.06rem;
+            --wp--preset--shadow--natural: 6px 6px 9px rgba(0, 0, 0, 0.2);
+            --wp--preset--shadow--deep: 12px 12px 50px rgba(0, 0, 0, 0.4);
+            --wp--preset--shadow--sharp: 6px 6px 0px rgba(0, 0, 0, 0.2);
+            --wp--preset--shadow--outlined: 6px 6px 0px -3px rgba(255, 255, 255, 1), 6px 6px rgba(0, 0, 0, 1);
+            --wp--preset--shadow--crisp: 6px 6px 0px rgba(0, 0, 0, 1);
+        }
+
+        body {
+            margin: 0;
+        }
+
+        .wp-site-blocks>.alignleft {
+            float: left;
+            margin-right: 2em;
+        }
+
+        .wp-site-blocks>.alignright {
+            float: right;
+            margin-left: 2em;
+        }
+
+        .wp-site-blocks>.aligncenter {
+            justify-content: center;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        :where(.wp-site-blocks)>* {
+            margin-block-start: 24px;
+            margin-block-end: 0;
+        }
+
+        :where(.wp-site-blocks)> :first-child:first-child {
+            margin-block-start: 0;
+        }
+
+        :where(.wp-site-blocks)> :last-child:last-child {
+            margin-block-end: 0;
+        }
+
+        body {
+            --wp--style--block-gap: 24px;
+        }
+
+        :where(body .is-layout-flow)> :first-child:first-child {
+            margin-block-start: 0;
+        }
+
+        :where(body .is-layout-flow)> :last-child:last-child {
+            margin-block-end: 0;
+        }
+
+        :where(body .is-layout-flow)>* {
+            margin-block-start: 24px;
+            margin-block-end: 0;
+        }
+
+        :where(body .is-layout-constrained)> :first-child:first-child {
+            margin-block-start: 0;
+        }
+
+        :where(body .is-layout-constrained)> :last-child:last-child {
+            margin-block-end: 0;
+        }
+
+        :where(body .is-layout-constrained)>* {
+            margin-block-start: 24px;
+            margin-block-end: 0;
+        }
+
+        :where(body .is-layout-flex) {
+            gap: 24px;
+        }
+
+        :where(body .is-layout-grid) {
+            gap: 24px;
+        }
+
+        body .is-layout-flow>.alignleft {
+            float: left;
+            margin-inline-start: 0;
+            margin-inline-end: 2em;
+        }
+
+        body .is-layout-flow>.alignright {
+            float: right;
+            margin-inline-start: 2em;
+            margin-inline-end: 0;
+        }
+
+        body .is-layout-flow>.aligncenter {
+            margin-left: auto !important;
+            margin-right: auto !important;
+        }
+
+        body .is-layout-constrained>.alignleft {
+            float: left;
+            margin-inline-start: 0;
+            margin-inline-end: 2em;
+        }
+
+        body .is-layout-constrained>.alignright {
+            float: right;
+            margin-inline-start: 2em;
+            margin-inline-end: 0;
+        }
+
+        body .is-layout-constrained>.aligncenter {
+            margin-left: auto !important;
+            margin-right: auto !important;
+        }
+
+        body .is-layout-constrained> :where(:not(.alignleft):not(.alignright):not(.alignfull)) {
+            max-width: var(--wp--style--global--content-size);
+            margin-left: auto !important;
+            margin-right: auto !important;
+        }
+
+        body .is-layout-constrained>.alignwide {
+            max-width: var(--wp--style--global--wide-size);
+        }
+
+        body .is-layout-flex {
+            display: flex;
+        }
+
+        body .is-layout-flex {
+            flex-wrap: wrap;
+            align-items: center;
+        }
+
+        body .is-layout-flex>* {
+            margin: 0;
+        }
+
+        body .is-layout-grid {
+            display: grid;
+        }
+
+        body .is-layout-grid>* {
+            margin: 0;
+        }
+
+        body {
+            padding-top: 0px;
+            padding-right: 0px;
+            padding-bottom: 0px;
+            padding-left: 0px;
+        }
+
+        a:where(:not(.wp-element-button)) {
+            text-decoration: underline;
+        }
+
+        .wp-element-button,
+        .wp-block-button__link {
+            background-color: #32373c;
+            border-width: 0;
+            color: #fff;
+            font-family: inherit;
+            font-size: inherit;
+            line-height: inherit;
+            padding: calc(0.667em + 2px) calc(1.333em + 2px);
+            text-decoration: none;
+        }
+
+        .has-black-color {
+            color: var(--wp--preset--color--black) !important;
+        }
+
+        .has-cyan-bluish-gray-color {
+            color: var(--wp--preset--color--cyan-bluish-gray) !important;
+        }
+
+        .has-white-color {
+            color: var(--wp--preset--color--white) !important;
+        }
+
+        .has-pale-pink-color {
+            color: var(--wp--preset--color--pale-pink) !important;
+        }
+
+        .has-vivid-red-color {
+            color: var(--wp--preset--color--vivid-red) !important;
+        }
+
+        .has-luminous-vivid-orange-color {
+            color: var(--wp--preset--color--luminous-vivid-orange) !important;
+        }
+
+        .has-luminous-vivid-amber-color {
+            color: var(--wp--preset--color--luminous-vivid-amber) !important;
+        }
+
+        .has-light-green-cyan-color {
+            color: var(--wp--preset--color--light-green-cyan) !important;
+        }
+
+        .has-vivid-green-cyan-color {
+            color: var(--wp--preset--color--vivid-green-cyan) !important;
+        }
+
+        .has-pale-cyan-blue-color {
+            color: var(--wp--preset--color--pale-cyan-blue) !important;
+        }
+
+        .has-vivid-cyan-blue-color {
+            color: var(--wp--preset--color--vivid-cyan-blue) !important;
+        }
+
+        .has-vivid-purple-color {
+            color: var(--wp--preset--color--vivid-purple) !important;
+        }
+
+        .has-black-background-color {
+            background-color: var(--wp--preset--color--black) !important;
+        }
+
+        .has-cyan-bluish-gray-background-color {
+            background-color: var(--wp--preset--color--cyan-bluish-gray) !important;
+        }
+
+        .has-white-background-color {
+            background-color: var(--wp--preset--color--white) !important;
+        }
+
+        .has-pale-pink-background-color {
+            background-color: var(--wp--preset--color--pale-pink) !important;
+        }
+
+        .has-vivid-red-background-color {
+            background-color: var(--wp--preset--color--vivid-red) !important;
+        }
+
+        .has-luminous-vivid-orange-background-color {
+            background-color: var(--wp--preset--color--luminous-vivid-orange) !important;
+        }
+
+        .has-luminous-vivid-amber-background-color {
+            background-color: var(--wp--preset--color--luminous-vivid-amber) !important;
+        }
+
+        .has-light-green-cyan-background-color {
+            background-color: var(--wp--preset--color--light-green-cyan) !important;
+        }
+
+        .has-vivid-green-cyan-background-color {
+            background-color: var(--wp--preset--color--vivid-green-cyan) !important;
+        }
+
+        .has-pale-cyan-blue-background-color {
+            background-color: var(--wp--preset--color--pale-cyan-blue) !important;
+        }
+
+        .has-vivid-cyan-blue-background-color {
+            background-color: var(--wp--preset--color--vivid-cyan-blue) !important;
+        }
+
+        .has-vivid-purple-background-color {
+            background-color: var(--wp--preset--color--vivid-purple) !important;
+        }
+
+        .has-black-border-color {
+            border-color: var(--wp--preset--color--black) !important;
+        }
+
+        .has-cyan-bluish-gray-border-color {
+            border-color: var(--wp--preset--color--cyan-bluish-gray) !important;
+        }
+
+        .has-white-border-color {
+            border-color: var(--wp--preset--color--white) !important;
+        }
+
+        .has-pale-pink-border-color {
+            border-color: var(--wp--preset--color--pale-pink) !important;
+        }
+
+        .has-vivid-red-border-color {
+            border-color: var(--wp--preset--color--vivid-red) !important;
+        }
+
+        .has-luminous-vivid-orange-border-color {
+            border-color: var(--wp--preset--color--luminous-vivid-orange) !important;
+        }
+
+        .has-luminous-vivid-amber-border-color {
+            border-color: var(--wp--preset--color--luminous-vivid-amber) !important;
+        }
+
+        .has-light-green-cyan-border-color {
+            border-color: var(--wp--preset--color--light-green-cyan) !important;
+        }
+
+        .has-vivid-green-cyan-border-color {
+            border-color: var(--wp--preset--color--vivid-green-cyan) !important;
+        }
+
+        .has-pale-cyan-blue-border-color {
+            border-color: var(--wp--preset--color--pale-cyan-blue) !important;
+        }
+
+        .has-vivid-cyan-blue-border-color {
+            border-color: var(--wp--preset--color--vivid-cyan-blue) !important;
+        }
+
+        .has-vivid-purple-border-color {
+            border-color: var(--wp--preset--color--vivid-purple) !important;
+        }
+
+        .has-vivid-cyan-blue-to-vivid-purple-gradient-background {
+            background: var(--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple) !important;
+        }
+
+        .has-light-green-cyan-to-vivid-green-cyan-gradient-background {
+            background: var(--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan) !important;
+        }
+
+        .has-luminous-vivid-amber-to-luminous-vivid-orange-gradient-background {
+            background: var(--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange) !important;
+        }
+
+        .has-luminous-vivid-orange-to-vivid-red-gradient-background {
+            background: var(--wp--preset--gradient--luminous-vivid-orange-to-vivid-red) !important;
+        }
+
+        .has-very-light-gray-to-cyan-bluish-gray-gradient-background {
+            background: var(--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray) !important;
+        }
+
+        .has-cool-to-warm-spectrum-gradient-background {
+            background: var(--wp--preset--gradient--cool-to-warm-spectrum) !important;
+        }
+
+        .has-blush-light-purple-gradient-background {
+            background: var(--wp--preset--gradient--blush-light-purple) !important;
+        }
+
+        .has-blush-bordeaux-gradient-background {
+            background: var(--wp--preset--gradient--blush-bordeaux) !important;
+        }
+
+        .has-luminous-dusk-gradient-background {
+            background: var(--wp--preset--gradient--luminous-dusk) !important;
+        }
+
+        .has-pale-ocean-gradient-background {
+            background: var(--wp--preset--gradient--pale-ocean) !important;
+        }
+
+        .has-electric-grass-gradient-background {
+            background: var(--wp--preset--gradient--electric-grass) !important;
+        }
+
+        .has-midnight-gradient-background {
+            background: var(--wp--preset--gradient--midnight) !important;
+        }
+
+        .has-small-font-size {
+            font-size: var(--wp--preset--font-size--small) !important;
+        }
+
+        .has-medium-font-size {
+            font-size: var(--wp--preset--font-size--medium) !important;
+        }
+
+        .has-large-font-size {
+            font-size: var(--wp--preset--font-size--large) !important;
+        }
+
+        .has-x-large-font-size {
+            font-size: var(--wp--preset--font-size--x-large) !important;
+        }
+
+        .wp-block-navigation a:where(:not(.wp-element-button)) {
+            color: inherit;
+        }
+
+        .wp-block-pullquote {
+            font-size: 1.5em;
+            line-height: 1.6;
+        }
+    </style>
+    <style id="woocommerce-inline-inline-css">
+        .woocommerce form .form-row .required {
+            visibility: visible;
+        }
+    </style>
+    <script defer="defer" src="https://themify.org/ultra-coffee/wp-includes/js/jquery/jquery.min.js?ver=3.7.1"
+        id="jquery-core-js"></script>
+    <script
+        src="https://themify.org/ultra-coffee/wp-content/plugins/woocommerce/assets/js/jquery-blockui/jquery.blockUI.min.js?ver=2.7.0-wc.8.7.0"
+        id="jquery-blockui-js" defer data-wp-strategy="defer"></script>
+    <link rel="https://api.w.org/" href="https://themify.org/ultra-coffee/wp-json/" />
+    <link rel="alternate" type="application/json" href="https://themify.org/ultra-coffee/wp-json/wp/v2/pages/60" />
+    <link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://themify.org/ultra-coffee/xmlrpc.php?rsd" />
+    <meta name="generator" content="WordPress 6.5.2" />
+    <meta name="generator" content="WooCommerce 8.7.0" />
+    <link rel="canonical" href="https://themify.org/ultra-coffee/" />
+    <link rel="shortlink" href="https://themify.org/ultra-coffee/" />
+    <link rel="alternate" type="application/json+oembed"
+        href="https://themify.org/ultra-coffee/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fthemify.org%2Fultra-coffee%2F" />
+    <link rel="alternate" type="text/xml+oembed"
+        href="https://themify.org/ultra-coffee/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fthemify.org%2Fultra-coffee%2F&#038;format=xml" />
+    <style>
+        @keyframes themifyAnimatedBG {
+            0% {
+                background-color: #33baab
+            }
+
+            100% {
+                background-color: #e33b9e
+            }
+
+            50% {
+                background-color: #4961d7
+            }
+
+            33.3% {
+                background-color: #2ea85c
+            }
+
+            25% {
+                background-color: #2bb8ed
+            }
+
+            20% {
+                background-color: #dd5135
+            }
+        }
+
+        .module_row.animated-bg {
+            animation: themifyAnimatedBG 30000ms infinite alternate
+        }
+    </style><noscript>
+        <style>
+            .woocommerce-product-gallery {
+                opacity: 1 !important;
+            }
+        </style>
+    </noscript>
+    <link rel="prefetch"
+        href="https://themify.org/ultra-coffee/wp-content/themes/themify-ultra/js/themify-script.js?ver=7.6.5"
+        as="script" fetchpriority="low">
+    <link rel="prefetch"
+        href="https://themify.org/ultra-coffee/wp-content/themes/themify-ultra/themify/js/modules/themify-sidemenu.js?ver=7.7.1"
+        as="script" fetchpriority="low">
+    <link rel="prefetch"
+        href="https://themify.org/ultra-coffee/wp-content/themes/themify-ultra/js/modules/wc.js?ver=7.6.5" as="script"
+        fetchpriority="low">
+    <link rel="prefetch"
+        href="https://themify.org/ultra-coffee/wp-content/themes/themify-ultra/themify/js/modules/isotop.js?ver=7.7.1"
+        as="script" fetchpriority="low">
+    <link rel="preload"
+        href="https://themify.org/ultra-coffee/wp-content/themes/themify-ultra/themify/themify-builder/js/themify-builder-script.js?ver=7.7.1"
+        as="script" fetchpriority="low">
+    <link rel="preload"
+        href="https://themify.org/ultra-coffee/wp-content/uploads/sites/12/2023/01/coffee-bean-divider-300x21.png"
+        as="image" fetchpriority="high">
+    <style id="tf_gf_fonts_style">
+        @font-face {
+            font-family: 'Playfair Display';
+            font-style: italic;
+            font-display: swap;
+            src: url(https://fonts.gstatic.com/s/playfairdisplay/v37/nuFkD-vYSZviVYUb_rj3ij__anPXDTnohkk72xU.woff2) format('woff2');
+            unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+        }
+
+        @font-face {
+            font-family: 'Playfair Display';
+            font-style: italic;
+            font-display: swap;
+            src: url(https://fonts.gstatic.com/s/playfairdisplay/v37/nuFkD-vYSZviVYUb_rj3ij__anPXDTnojUk72xU.woff2) format('woff2');
+            unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+0300-0301, U+0303-0304, U+0308-0309, U+0323, U+0329, U+1EA0-1EF9, U+20AB;
+        }
+
+        @font-face {
+            font-family: 'Playfair Display';
+            font-style: italic;
+            font-display: swap;
+            src: url(https://fonts.gstatic.com/s/playfairdisplay/v37/nuFkD-vYSZviVYUb_rj3ij__anPXDTnojEk72xU.woff2) format('woff2');
+            unicode-range: U+0100-02AF, U+0304, U+0308, U+0329, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+        }
+
+        @font-face {
+            font-family: 'Playfair Display';
+            font-style: italic;
+            font-display: swap;
+            src: url(https://fonts.gstatic.com/s/playfairdisplay/v37/nuFkD-vYSZviVYUb_rj3ij__anPXDTnogkk7.woff2) format('woff2');
+            unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+        }
+
+        @font-face {
+            font-family: 'Playfair Display';
+            font-style: italic;
+            font-weight: 700;
+            font-display: swap;
+            src: url(https://fonts.gstatic.com/s/playfairdisplay/v37/nuFkD-vYSZviVYUb_rj3ij__anPXDTnohkk72xU.woff2) format('woff2');
+            unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+        }
+
+        @font-face {
+            font-family: 'Playfair Display';
+            font-style: italic;
+            font-weight: 700;
+            font-display: swap;
+            src: url(https://fonts.gstatic.com/s/playfairdisplay/v37/nuFkD-vYSZviVYUb_rj3ij__anPXDTnojUk72xU.woff2) format('woff2');
+            unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+0300-0301, U+0303-0304, U+0308-0309, U+0323, U+0329, U+1EA0-1EF9, U+20AB;
+        }
+
+        @font-face {
+            font-family: 'Playfair Display';
+            font-style: italic;
+            font-weight: 700;
+            font-display: swap;
+            src: url(https://fonts.gstatic.com/s/playfairdisplay/v37/nuFkD-vYSZviVYUb_rj3ij__anPXDTnojEk72xU.woff2) format('woff2');
+            unicode-range: U+0100-02AF, U+0304, U+0308, U+0329, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+        }
+
+        @font-face {
+            font-family: 'Playfair Display';
+            font-style: italic;
+            font-weight: 700;
+            font-display: swap;
+            src: url(https://fonts.gstatic.com/s/playfairdisplay/v37/nuFkD-vYSZviVYUb_rj3ij__anPXDTnogkk7.woff2) format('woff2');
+            unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+        }
+
+        @font-face {
+            font-family: 'Playfair Display';
+            font-style: italic;
+            font-weight: 900;
+            font-display: swap;
+            src: url(https://fonts.gstatic.com/s/playfairdisplay/v37/nuFkD-vYSZviVYUb_rj3ij__anPXDTnohkk72xU.woff2) format('woff2');
+            unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+        }
+
+        @font-face {
+            font-family: 'Playfair Display';
+            font-style: italic;
+            font-weight: 900;
+            font-display: swap;
+            src: url(https://fonts.gstatic.com/s/playfairdisplay/v37/nuFkD-vYSZviVYUb_rj3ij__anPXDTnojUk72xU.woff2) format('woff2');
+            unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+0300-0301, U+0303-0304, U+0308-0309, U+0323, U+0329, U+1EA0-1EF9, U+20AB;
+        }
+
+        @font-face {
+            font-family: 'Playfair Display';
+            font-style: italic;
+            font-weight: 900;
+            font-display: swap;
+            src: url(https://fonts.gstatic.com/s/playfairdisplay/v37/nuFkD-vYSZviVYUb_rj3ij__anPXDTnojEk72xU.woff2) format('woff2');
+            unicode-range: U+0100-02AF, U+0304, U+0308, U+0329, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+        }
+
+        @font-face {
+            font-family: 'Playfair Display';
+            font-style: italic;
+            font-weight: 900;
+            font-display: swap;
+            src: url(https://fonts.gstatic.com/s/playfairdisplay/v37/nuFkD-vYSZviVYUb_rj3ij__anPXDTnogkk7.woff2) format('woff2');
+            unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+        }
+
+        @font-face {
+            font-family: 'Playfair Display';
+            font-display: swap;
+            src: url(https://fonts.gstatic.com/s/playfairdisplay/v37/nuFiD-vYSZviVYUb_rj3ij__anPXDTjYgFE_.woff2) format('woff2');
+            unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+        }
+
+        @font-face {
+            font-family: 'Playfair Display';
+            font-display: swap;
+            src: url(https://fonts.gstatic.com/s/playfairdisplay/v37/nuFiD-vYSZviVYUb_rj3ij__anPXDTPYgFE_.woff2) format('woff2');
+            unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+0300-0301, U+0303-0304, U+0308-0309, U+0323, U+0329, U+1EA0-1EF9, U+20AB;
+        }
+
+        @font-face {
+            font-family: 'Playfair Display';
+            font-display: swap;
+            src: url(https://fonts.gstatic.com/s/playfairdisplay/v37/nuFiD-vYSZviVYUb_rj3ij__anPXDTLYgFE_.woff2) format('woff2');
+            unicode-range: U+0100-02AF, U+0304, U+0308, U+0329, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+        }
+
+        @font-face {
+            font-family: 'Playfair Display';
+            font-display: swap;
+            src: url(https://fonts.gstatic.com/s/playfairdisplay/v37/nuFiD-vYSZviVYUb_rj3ij__anPXDTzYgA.woff2) format('woff2');
+            unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+        }
+
+        @font-face {
+            font-family: 'Playfair Display';
+            font-weight: 700;
+            font-display: swap;
+            src: url(https://fonts.gstatic.com/s/playfairdisplay/v37/nuFiD-vYSZviVYUb_rj3ij__anPXDTjYgFE_.woff2) format('woff2');
+            unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+        }
+
+        @font-face {
+            font-family: 'Playfair Display';
+            font-weight: 700;
+            font-display: swap;
+            src: url(https://fonts.gstatic.com/s/playfairdisplay/v37/nuFiD-vYSZviVYUb_rj3ij__anPXDTPYgFE_.woff2) format('woff2');
+            unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+0300-0301, U+0303-0304, U+0308-0309, U+0323, U+0329, U+1EA0-1EF9, U+20AB;
+        }
+
+        @font-face {
+            font-family: 'Playfair Display';
+            font-weight: 700;
+            font-display: swap;
+            src: url(https://fonts.gstatic.com/s/playfairdisplay/v37/nuFiD-vYSZviVYUb_rj3ij__anPXDTLYgFE_.woff2) format('woff2');
+            unicode-range: U+0100-02AF, U+0304, U+0308, U+0329, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+        }
+
+        @font-face {
+            font-family: 'Playfair Display';
+            font-weight: 700;
+            font-display: swap;
+            src: url(https://fonts.gstatic.com/s/playfairdisplay/v37/nuFiD-vYSZviVYUb_rj3ij__anPXDTzYgA.woff2) format('woff2');
+            unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+        }
+
+        @font-face {
+            font-family: 'Playfair Display';
+            font-weight: 900;
+            font-display: swap;
+            src: url(https://fonts.gstatic.com/s/playfairdisplay/v37/nuFiD-vYSZviVYUb_rj3ij__anPXDTjYgFE_.woff2) format('woff2');
+            unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+        }
+
+        @font-face {
+            font-family: 'Playfair Display';
+            font-weight: 900;
+            font-display: swap;
+            src: url(https://fonts.gstatic.com/s/playfairdisplay/v37/nuFiD-vYSZviVYUb_rj3ij__anPXDTPYgFE_.woff2) format('woff2');
+            unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+0300-0301, U+0303-0304, U+0308-0309, U+0323, U+0329, U+1EA0-1EF9, U+20AB;
+        }
+
+        @font-face {
+            font-family: 'Playfair Display';
+            font-weight: 900;
+            font-display: swap;
+            src: url(https://fonts.gstatic.com/s/playfairdisplay/v37/nuFiD-vYSZviVYUb_rj3ij__anPXDTLYgFE_.woff2) format('woff2');
+            unicode-range: U+0100-02AF, U+0304, U+0308, U+0329, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+        }
+
+        @font-face {
+            font-family: 'Playfair Display';
+            font-weight: 900;
+            font-display: swap;
+            src: url(https://fonts.gstatic.com/s/playfairdisplay/v37/nuFiD-vYSZviVYUb_rj3ij__anPXDTzYgA.woff2) format('woff2');
+            unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+        }
+
+        @font-face {
+            font-family: 'Poppins';
+            font-style: italic;
+            font-weight: 300;
+            font-display: swap;
+            src: url(https://fonts.gstatic.com/s/poppins/v21/pxiDyp8kv8JHgFVrJJLm21lVGdeOcEg.woff2) format('woff2');
+            unicode-range: U+0100-02AF, U+0304, U+0308, U+0329, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+        }
+
+        @font-face {
+            font-family: 'Poppins';
+            font-style: italic;
+            font-weight: 300;
+            font-display: swap;
+            src: url(https://fonts.gstatic.com/s/poppins/v21/pxiDyp8kv8JHgFVrJJLm21lVF9eO.woff2) format('woff2');
+            unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+        }
+
+        @font-face {
+            font-family: 'Poppins';
+            font-style: italic;
+            font-display: swap;
+            src: url(https://fonts.gstatic.com/s/poppins/v21/pxiGyp8kv8JHgFVrJJLufntAKPY.woff2) format('woff2');
+            unicode-range: U+0100-02AF, U+0304, U+0308, U+0329, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+        }
+
+        @font-face {
+            font-family: 'Poppins';
+            font-style: italic;
+            font-display: swap;
+            src: url(https://fonts.gstatic.com/s/poppins/v21/pxiGyp8kv8JHgFVrJJLucHtA.woff2) format('woff2');
+            unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+        }
+
+        @font-face {
+            font-family: 'Poppins';
+            font-style: italic;
+            font-weight: 600;
+            font-display: swap;
+            src: url(https://fonts.gstatic.com/s/poppins/v21/pxiDyp8kv8JHgFVrJJLmr19VGdeOcEg.woff2) format('woff2');
+            unicode-range: U+0100-02AF, U+0304, U+0308, U+0329, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+        }
+
+        @font-face {
+            font-family: 'Poppins';
+            font-style: italic;
+            font-weight: 600;
+            font-display: swap;
+            src: url(https://fonts.gstatic.com/s/poppins/v21/pxiDyp8kv8JHgFVrJJLmr19VF9eO.woff2) format('woff2');
+            unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+        }
+
+        @font-face {
+            font-family: 'Poppins';
+            font-style: italic;
+            font-weight: 700;
+            font-display: swap;
+            src: url(https://fonts.gstatic.com/s/poppins/v21/pxiDyp8kv8JHgFVrJJLmy15VGdeOcEg.woff2) format('woff2');
+            unicode-range: U+0100-02AF, U+0304, U+0308, U+0329, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+        }
+
+        @font-face {
+            font-family: 'Poppins';
+            font-style: italic;
+            font-weight: 700;
+            font-display: swap;
+            src: url(https://fonts.gstatic.com/s/poppins/v21/pxiDyp8kv8JHgFVrJJLmy15VF9eO.woff2) format('woff2');
+            unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+        }
+
+        @font-face {
+            font-family: 'Poppins';
+            font-style: italic;
+            font-weight: 900;
+            font-display: swap;
+            src: url(https://fonts.gstatic.com/s/poppins/v21/pxiDyp8kv8JHgFVrJJLm81xVGdeOcEg.woff2) format('woff2');
+            unicode-range: U+0100-02AF, U+0304, U+0308, U+0329, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+        }
+
+        @font-face {
+            font-family: 'Poppins';
+            font-style: italic;
+            font-weight: 900;
+            font-display: swap;
+            src: url(https://fonts.gstatic.com/s/poppins/v21/pxiDyp8kv8JHgFVrJJLm81xVF9eO.woff2) format('woff2');
+            unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+        }
+
+        @font-face {
+            font-family: 'Poppins';
+            font-weight: 300;
+            font-display: swap;
+            src: url(https://fonts.gstatic.com/s/poppins/v21/pxiByp8kv8JHgFVrLDz8Z1JlFc-K.woff2) format('woff2');
+            unicode-range: U+0100-02AF, U+0304, U+0308, U+0329, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+        }
+
+        @font-face {
+            font-family: 'Poppins';
+            font-weight: 300;
+            font-display: swap;
+            src: url(https://fonts.gstatic.com/s/poppins/v21/pxiByp8kv8JHgFVrLDz8Z1xlFQ.woff2) format('woff2');
+            unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+        }
+
+        @font-face {
+            font-family: 'Poppins';
+            font-display: swap;
+            src: url(https://fonts.gstatic.com/s/poppins/v21/pxiEyp8kv8JHgFVrJJnecmNE.woff2) format('woff2');
+            unicode-range: U+0100-02AF, U+0304, U+0308, U+0329, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+        }
+
+        @font-face {
+            font-family: 'Poppins';
+            font-display: swap;
+            src: url(https://fonts.gstatic.com/s/poppins/v21/pxiEyp8kv8JHgFVrJJfecg.woff2) format('woff2');
+            unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+        }
+
+        @font-face {
+            font-family: 'Poppins';
+            font-weight: 600;
+            font-display: swap;
+            src: url(https://fonts.gstatic.com/s/poppins/v21/pxiByp8kv8JHgFVrLEj6Z1JlFc-K.woff2) format('woff2');
+            unicode-range: U+0100-02AF, U+0304, U+0308, U+0329, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+        }
+
+        @font-face {
+            font-family: 'Poppins';
+            font-weight: 600;
+            font-display: swap;
+            src: url(https://fonts.gstatic.com/s/poppins/v21/pxiByp8kv8JHgFVrLEj6Z1xlFQ.woff2) format('woff2');
+            unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+        }
+
+        @font-face {
+            font-family: 'Poppins';
+            font-weight: 700;
+            font-display: swap;
+            src: url(https://fonts.gstatic.com/s/poppins/v21/pxiByp8kv8JHgFVrLCz7Z1JlFc-K.woff2) format('woff2');
+            unicode-range: U+0100-02AF, U+0304, U+0308, U+0329, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+        }
+
+        @font-face {
+            font-family: 'Poppins';
+            font-weight: 700;
+            font-display: swap;
+            src: url(https://fonts.gstatic.com/s/poppins/v21/pxiByp8kv8JHgFVrLCz7Z1xlFQ.woff2) format('woff2');
+            unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+        }
+
+        @font-face {
+            font-family: 'Poppins';
+            font-weight: 900;
+            font-display: swap;
+            src: url(https://fonts.gstatic.com/s/poppins/v21/pxiByp8kv8JHgFVrLBT5Z1JlFc-K.woff2) format('woff2');
+            unicode-range: U+0100-02AF, U+0304, U+0308, U+0329, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+        }
+
+        @font-face {
+            font-family: 'Poppins';
+            font-weight: 900;
+            font-display: swap;
+            src: url(https://fonts.gstatic.com/s/poppins/v21/pxiByp8kv8JHgFVrLBT5Z1xlFQ.woff2) format('woff2');
+            unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+        }
+    </style>
+    <link rel="preload" fetchpriority="high"
+        href="https://themify.org/ultra-coffee/wp-content/uploads/sites/12/themify-concate/3205203129/themify-1299817607.css"
+        as="style">
+    <link fetchpriority="high" id="themify_concate-css" rel="stylesheet"
+        href="https://themify.org/ultra-coffee/wp-content/uploads/sites/12/themify-concate/3205203129/themify-1299817607.css">
+</head>
+
+<body
+    class="home page-template-default page page-id-60 theme-themify-ultra skin-coffee sidebar-none full_width lightboxed woocommerce-js tb_animation_on ready-view header-horizontal fixed-header-enabled footer-horizontal-left tagline-off slide-cart sidemenu-active">
+    <a class="screen-reader-text skip-to-content" href="#content">Skip to content</a><svg id="tf_svg"
+        style="display:none">
+        <defs>
+            <symbol id="tf-ti-search" viewBox="0 0 32 32">
+                <path
+                    d="m31.25 29.875-1.313 1.313-9.75-9.75a12.019 12.019 0 0 1-7.938 3c-6.75 0-12.25-5.5-12.25-12.25 0-3.25 1.25-6.375 3.563-8.688C5.875 1.25 8.937-.063 12.25-.063c6.75 0 12.25 5.5 12.25 12.25 0 3-1.125 5.813-3 7.938zm-19-7.312c5.688 0 10.313-4.688 10.313-10.375S17.938 1.813 12.25 1.813c-2.813 0-5.375 1.125-7.313 3.063-2 1.938-3.063 4.563-3.063 7.313 0 5.688 4.625 10.375 10.375 10.375z" />
+            </symbol>
+            <symbol id="tf-fas-shopping-cart" viewBox="0 0 36 32">
+                <path
+                    d="M33 18.81q-.25 1.2-1.44 1.2H13.25l.37 2h16.82q.68 0 1.12.55t.31 1.25l-.37 1.57q2 .93 2 3.12 0 1.44-1.03 2.47T30 32t-2.47-1.03-1.03-2.47q0-1.5 1.06-2.5H14.44q1.06 1 1.06 2.5 0 1.44-1.03 2.47T12 32t-2.47-1.03T8.5 28.5q0-2 1.75-3.06L5.88 4H1.5Q.88 4 .44 3.56T0 2.5v-1Q0 .87.44.44T1.5 0h6.44q.5 0 .9.34t.54.85L9.94 4H34.5q.75 0 1.19.56t.25 1.25z" />
+            </symbol>
+            <symbol id="tf-fas-search" viewBox="0 0 32 32">
+                <path
+                    d="M31.6 27.7q.4.4.4 1t-.4 1.1l-1.8 1.8q-.4.4-1 .4t-1.1-.4l-6.3-6.3q-.4-.4-.4-1v-1Q17.5 26 13 26q-5.4 0-9.2-3.8T0 13t3.8-9.2T13 0t9.2 3.8T26 13q0 4.5-2.8 8h1q.7 0 1.1.4zM13 21q3.3 0 5.7-2.3T21 13t-2.3-5.7T13 5 7.3 7.3 5 13t2.3 5.7T13 21z" />
+            </symbol>
+            <style id="tf_fonts_style">
+                .tf_fa.tf-fas-shopping-cart {
+                    width: 1.123em
+                }
+            </style>
+        </defs>
+    </svg>
+    <script> </script>
+    <div class="tf_search_form tf_search_overlay">
+        <form role="search" method="get" id="searchform" class="tf_rel tf_hide"
+            action="https://themify.org/ultra-coffee/">
+            <div class="tf_icon_wrap icon-search"><svg aria-label="Search" class="tf_fa tf-ti-search" role="img">
+                    <use href="#tf-ti-search"></use>
+                </svg></div><input type="text" name="s" id="s" title="Search" placeholder="Search" value />
+        </form>
+    </div>
+    <div id="pagewrap" class="tf_box hfeed site">
+        <div id="headerwrap" class=" tf_box">
+            <div class="header-icons tf_hide"><a id="menu-icon" class="tf_inline_b tf_text_dec" href="#mobile-menu"
+                    aria-label="Menu"><span class="menu-icon-inner tf_inline_b tf_vmiddle tf_overflow"></span><span
+                        class="screen-reader-text">Menu</span></a>
+                <div class="cart-icon">
+                    <div class="cart-wrap"><a class="cart-icon-link" href="#slide-cart"><em
+                                class="icon-shopping-cart"><svg aria-label="Shop Cart"
+                                    class="tf_fa tf-fas-shopping-cart" role="img">
+                                    <use href="#tf-fas-shopping-cart"></use>
+                                </svg></em><span></span><em class="screen-reader-text">Cart</em></a></div>
+                </div>
+            </div>
+            <header id="header" class="tf_box pagewidth tf_clearfix" itemscope="itemscope"
+                itemtype="https://schema.org/WPHeader">
+                <div class="header-bar tf_box">
+                    <div id="site-logo"><a href="https://themify.org/ultra-coffee"
+                            title="Coffee"><span>Coffee</span></a></div>
+                </div>
+                <div id="mobile-menu" class="sidemenu sidemenu-off tf_scrollbar">
+                    <div class="navbar-wrapper tf_clearfix">
+                        <div class="cart-icon">
+                            <div class="cart-wrap"><a class="cart-icon-link" href="#slide-cart"><em
+                                        class="icon-shopping-cart"><svg aria-label="Shop Cart"
+                                            class="tf_fa tf-fas-shopping-cart" role="img">
+                                            <use href="#tf-fas-shopping-cart"></use>
+                                        </svg></em><span></span><em class="screen-reader-text">Cart</em></a></div>
+                        </div>
+                        <div class="social-widget tf_inline_b tf_vmiddle"> </div><a data-lazy="1"
+                            class="search-button tf_search_icon tf_vmiddle tf_inline_b" href="#"><svg
+                                aria-label="Search" class="tf_fa tf-fas-search" role="img">
+                                <use href="#tf-fas-search"></use>
+                            </svg><span class="screen-reader-text">Search</span></a>
+                        <nav id="main-nav-wrap" itemscope="itemscope"
+                            itemtype="https://schema.org/SiteNavigationElement">
+                            <ul id="main-nav" class="main-nav tf_clearfix tf_box">
+                                <li id="menu-item-76"
+                                    class="menu-item-page-60 menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-item page_item page-item-60 current_page_item menu-item-76">
+                                    <a href="https://themify.org/ultra-coffee/" aria-current="page">Home</a> </li>
+                                <li id="menu-item-75"
+                                    class="menu-item-page-62 menu-item menu-item-type-post_type menu-item-object-page menu-item-75">
+                                    <a href="https://themify.org/ultra-coffee/about/">About</a> </li>
+                                <li id="menu-item-74"
+                                    class="menu-item-page-8 menu-item menu-item-type-post_type menu-item-object-page menu-item-74">
+                                    <a href="https://themify.org/ultra-coffee/shop/">Shop</a> </li>
+                                <li id="menu-item-73"
+                                    class="menu-item-page-61 menu-item menu-item-type-post_type menu-item-object-page menu-item-73">
+                                    <a href="https://themify.org/ultra-coffee/contact/">Contact</a> </li>
+                            </ul>
+                        </nav>
+                    </div><a id="menu-icon-close" aria-label="Close menu" class="tf_close tf_hide" href="#"><span
+                            class="screen-reader-text">Close Menu</span></a>
+                </div>
+                <div id="slide-cart" class="sidemenu sidemenu-off tf_scrollbar"><a href="#" id="cart-icon-close"
+                        class="tf_close"><span class="screen-reader-text">Close Cart</span></a>
+                    <div id="shopdock-ultra"></div>
+                </div>
+            </header>
+        </div>
+        <div id="body" class="tf_box tf_clear tf_mw tf_clearfix">
+            <div id="layout" class="pagewidth tf_box tf_clearfix">
+                <main id="content" class="tf_box tf_clearfix">
+                    <div id="page-60" class="type-page">
+                        <div class="page-content entry-content">
+                            <div id="themify_builder_content-60" data-postid="60"
+                                class="themify_builder_content themify_builder_content-60 themify_builder tf_clear">
+                                <div data-lazy="1" class="module_row themify_builder_row tb_464eb49 tb_first tf_w">
+                                    <div class="row_inner col_align_top tb_col_count_1 tf_box tf_rel">
+                                        <div data-lazy="1" class="module_column tb-column col-full tb_3f289e4 first">
+                                            <div class="module module-fancy-heading tb_01f96de " data-lazy="1">
+                                                <h1 class="fancy-heading tf_textc"><span
+                                                        class="main-head tf_block">Ultra Coffee </span> <span
+                                                        class="sub-head tf_block tf_rel">The best conversations are
+                                                        found at the bottom of a cup of coffee </span></h1>
+                                            </div>
+                                            <div class="module module-image tb_f0b96dd image-center tf_mw"
+                                                data-lazy="1">
+                                                <div class="image-wrap tf_rel tf_mw"> <img data-tf-not-load="1"
+                                                        fetchpriority="high" loading="auto" decoding="auto"
+                                                        decoding="async"
+                                                        src="https://themify.org/ultra-coffee/wp-content/uploads/sites/12/2023/01/coffee-bean-divider-300x21.png"
+                                                        width="300" height="21" class="wp-post-image wp-image-14"
+                                                        title="coffee-bean-divider" alt="coffee-bean-divider"></div>
+                                            </div>
+                                            <div class="module module-buttons tb_13e4e4c buttons-horizontal solid large squared"
+                                                data-lazy="1">
+                                                <div class="module-buttons-item tf_in_flx"><a
+                                                        href="https://themify.org/ultra-coffee/shop"
+                                                        class="ui builder_button tf_in_flx tb_default_color">Explore Our
+                                                        Coffees</a></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div data-lazy="1" class="module_row themify_builder_row tb_d49039f tf_w">
+                                    <div class="row_inner col_align_top tb_col_count_1 tf_box tf_rel">
+                                        <div data-lazy="1" class="module_column tb-column col-full tb_edf5dc2 first">
+                                            <div data-lazy="1"
+                                                class="module_subrow themify_builder_sub_row tf_w gutter-none col_align_top tb_col_count_3 tb_1c21584">
+                                                <div data-lazy="1"
+                                                    class="module_column sub_column col3-1 tb_3f04099 first">
+                                                    <div class="module module-text tb_2c51a2a repeat " data-lazy="1">
+                                                        <div class="tb_text_wrap">
+                                                            <h3>Contact Us</h3>
+                                                            <p>(+416) 456 1989</p>
+                                                            <p><a
+                                                                    href="/cdn-cgi/l/email-protection#cea7a0a8a18ebaa6aba3a7a8b7e0a3ab"><span
+                                                                        class="__cf_email__"
+                                                                        data-cfemail="f39a9d959cb3909c95959696de80989a9ddd909c9e">[email&#160;protected]</span></a>
+                                                            </p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div data-lazy="1" class="module_column sub_column col3-1 tb_25b4c40">
+                                                    <div class="module module-text tb_j7rp367 repeat " data-lazy="1">
+                                                        <div class="tb_text_wrap">
+                                                            <h3>Hours of Operation</h3>
+                                                            <p>MON – FRI: 7AM – 7PM<br />SAT – SUN: 5PM – 2AM<br />Bar
+                                                                only open on weekends.</p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div data-lazy="1"
+                                                    class="module_column sub_column col3-1 tb_fc8b19f last">
+                                                    <div class="module module-text tb_f9ii368 repeat " data-lazy="1">
+                                                        <div class="tb_text_wrap">
+                                                            <h3>Location</h3>
+                                                            <p>50 Yonge Street <br />Toronto, ON MIW ZH3</p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div data-lazy="1" class="module_row themify_builder_row tb_7f1f04c tf_w">
+                                    <div class="row_inner col_align_middle tb_col_count_2 tf_box tf_rel">
+                                        <div data-lazy="1" class="module_column tb-column col4-2 tb_7928ae4 first">
+                                            <div class="module module-fancy-heading tb_d137649 tb_hide_divider"
+                                                data-lazy="1">
+                                                <h3 class="fancy-heading tf_textc"><span
+                                                        class="main-head tf_block">Welcome </span> <span
+                                                        class="sub-head tf_block tf_rel">This is our story </span></h3>
+                                            </div>
+                                            <div class="module module-image tb_giok368 image-center tf_mw"
+                                                data-lazy="1">
+                                                <div class="image-wrap tf_rel tf_mw"> <img data-tf-not-load="1"
+                                                        fetchpriority="high" loading="auto" decoding="auto"
+                                                        decoding="async"
+                                                        src="https://themify.org/ultra-coffee/wp-content/uploads/sites/12/2023/01/coffee-bean-divider-300x21.png"
+                                                        width="300" height="21" class="wp-post-image wp-image-14"
+                                                        title="coffee-bean-divider" alt="coffee-bean-divider"></div>
+                                            </div>
+                                            <div class="module module-text tb_a59a4ac repeat " data-lazy="1">
+                                                <div class="tb_text_wrap">
+                                                    <p>Coffee is a brewed beverage using roasted coffee beans, the seeds
+                                                        of cherries from various Coffea species. The genus Coffea is
+                                                        native to tropical Africa, Madagascar, the Comoros, Mauritius,
+                                                        and Réunion in the Indian Ocean, amoung others.</p>
+                                                    <p>We&#8217;ve never been so excited to share with you our coffee
+                                                        knowledge and the story that every bean can tell. Come on in,
+                                                        take a sip, and explore with us!</p>
+                                                </div>
+                                            </div>
+                                            <div class="module module-buttons tb_yqad959 buttons-horizontal solid large squared"
+                                                data-lazy="1">
+                                                <div class="module-buttons-item tf_in_flx"><a
+                                                        href="https://themify.org/ultra-coffee/about/"
+                                                        class="ui builder_button tf_in_flx brown">READ MORE</a></div>
+                                            </div>
+                                        </div>
+                                        <div data-lazy="1" class="module_column tb-column col4-2 tb_4b18274 last">
+                                            <div class="module module-image tb_19c5790 image-center tf_mw"
+                                                data-lazy="1">
+                                                <div class="image-wrap tf_rel tf_mw"> <img loading="lazy"
+                                                        fetchpriority="high" decoding="async"
+                                                        src="https://themify.org/ultra-coffee/wp-content/uploads/sites/12/2023/01/image-coffee-590x460-1-590x460.jpg"
+                                                        width="590" height="460" class="wp-post-image wp-image-35"
+                                                        title="image-coffee-590x460-1" alt="image-coffee-590x460-1"
+                                                        srcset="https://themify.org/ultra-coffee/wp-content/uploads/sites/12/2023/01/image-coffee-590x460-1.jpg 590w, https://themify.org/ultra-coffee/wp-content/uploads/sites/12/2023/01/image-coffee-590x460-1-300x234.jpg 300w"
+                                                        sizes="(max-width: 590px) 100vw, 590px" /></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div data-css_id="87ce21a" data-lazy="1"
+                                    class="module_row themify_builder_row fullwidth_row_container tb_87ce21a tf_w">
+                                    <div class="row_inner col_align_top tb_col_count_1 tf_box tf_rel">
+                                        <div data-lazy="1" class="module_column tb-column col-full tb_78f119c first">
+                                            <div class="module module-fancy-heading tb_vjpv369 tb_hide_divider"
+                                                data-lazy="1">
+                                                <h3 class="fancy-heading tf_textc"><span class="main-head tf_block">Our
+                                                        Commitment </span> <span class="sub-head tf_block tf_rel">We
+                                                        promise the best quality </span></h3>
+                                            </div>
+                                            <div class="module module-image tb_yemm369 image-center tf_mw"
+                                                data-lazy="1">
+                                                <div class="image-wrap tf_rel tf_mw"> <img data-tf-not-load="1"
+                                                        fetchpriority="high" loading="auto" decoding="auto"
+                                                        decoding="async"
+                                                        src="https://themify.org/ultra-coffee/wp-content/uploads/sites/12/2023/01/coffee-bean-divider-300x21.png"
+                                                        width="300" height="21" class="wp-post-image wp-image-14"
+                                                        title="coffee-bean-divider" alt="coffee-bean-divider"></div>
+                                            </div>
+                                            <div data-lazy="1"
+                                                class="module_subrow themify_builder_sub_row tf_w col_align_top tb_col_count_3 tb_d9c56c1">
+                                                <div data-lazy="1"
+                                                    class="module_column sub_column col3-1 tb_1e13a17 first">
+                                                    <div class="module module-image tb_f7cb5ed image-center tf_mw"
+                                                        data-lazy="1">
+                                                        <div class="image-wrap tf_rel tf_mw"> <img loading="lazy"
+                                                                decoding="async"
+                                                                src="https://themify.org/ultra-coffee/wp-content/uploads/sites/12/2023/01/coffee-bean-image-100x100-1-100x100.png"
+                                                                width="100" height="100"
+                                                                class="wp-post-image wp-image-36"
+                                                                title="Ethically Sourced Arabica Beans"
+                                                                alt="All of our arabica beans come from farms we&#039;ve been to. We meet the team, inspect the quality of their coffee trees, and tour the facilities. We ensure our coffee growers are paid fair wages.">
+                                                        </div>
+                                                        <div class="image-content">
+                                                            <h3 class="image-title">Ethically Sourced Arabica Beans</h3>
+                                                            <div class="image-caption tb_text_wrap"> All of our arabica
+                                                                beans come from farms we&#8217;ve been to. We meet the
+                                                                team, inspect the quality of their coffee trees, and
+                                                                tour the facilities. We ensure our coffee growers are
+                                                                paid fair wages. </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div data-lazy="1" class="module_column sub_column col3-1 tb_d82c843">
+                                                    <div class="module module-image tb_1d8a370 image-center tf_mw"
+                                                        data-lazy="1">
+                                                        <div class="image-wrap tf_rel tf_mw"> <img loading="lazy"
+                                                                decoding="async"
+                                                                src="https://themify.org/ultra-coffee/wp-content/uploads/sites/12/2023/01/coffee-roasting-icon-100x100-1-100x100.png"
+                                                                width="100" height="100"
+                                                                class="wp-post-image wp-image-37"
+                                                                title="Locally Roasting Coffee"
+                                                                alt="Roasting green beans transform their properties into the light, medium, or dark coffee beans you know of. We&#039;re proud of our technique, which has passed down the generations in our family.">
+                                                        </div>
+                                                        <div class="image-content">
+                                                            <h3 class="image-title">Locally Roasting Coffee</h3>
+                                                            <div class="image-caption tb_text_wrap"> Roasting green
+                                                                beans transform their properties into the light, medium,
+                                                                or dark coffee beans you know of. We&#8217;re proud of
+                                                                our technique, which has passed down the generations in
+                                                                our family. </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div data-lazy="1"
+                                                    class="module_column sub_column col3-1 tb_3e08bff last">
+                                                    <div class="module module-image tb_00zl370 image-center tf_mw"
+                                                        data-lazy="1">
+                                                        <div class="image-wrap tf_rel tf_mw"> <img loading="lazy"
+                                                                decoding="async"
+                                                                src="https://themify.org/ultra-coffee/wp-content/uploads/sites/12/2023/01/coffee-cup-100x100.png"
+                                                                width="100" height="100"
+                                                                class="wp-post-image wp-image-20"
+                                                                title="Quality In Each Cup"
+                                                                alt="The quality is in the details. A coffee is sour if the brewing temperature was low, or if the cherry over-ripened before harvesting. We love coffee and we&#039;re invested every step of the way.">
+                                                        </div>
+                                                        <div class="image-content">
+                                                            <h3 class="image-title">Quality In Each Cup</h3>
+                                                            <div class="image-caption tb_text_wrap"> The quality is in
+                                                                the details. A coffee is sour if the brewing temperature
+                                                                was low, or if the cherry over-ripened before
+                                                                harvesting. We love coffee and we&#8217;re invested
+                                                                every step of the way. </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div data-lazy="1" class="module_row themify_builder_row tb_ee1c314 tf_w">
+                                    <div class="row_inner col_align_top tb_col_count_1 tf_box tf_rel">
+                                        <div data-lazy="1" class="module_column tb-column col-full tb_2ec22cf first">
+                                            <div class="module module-fancy-heading tb_c9df371 tb_hide_divider"
+                                                data-lazy="1">
+                                                <h3 class="fancy-heading tf_textc"><span class="main-head tf_block">Our
+                                                        Menu </span> <span class="sub-head tf_block tf_rel">Our
+                                                        specialities and popular favourites </span></h3>
+                                            </div>
+                                            <div class="module module-image tb_2bjf371 image-center tf_mw"
+                                                data-lazy="1">
+                                                <div class="image-wrap tf_rel tf_mw"> <img data-tf-not-load="1"
+                                                        fetchpriority="high" loading="auto" decoding="auto"
+                                                        decoding="async"
+                                                        src="https://themify.org/ultra-coffee/wp-content/uploads/sites/12/2023/01/coffee-bean-divider-300x21.png"
+                                                        width="300" height="21" class="wp-post-image wp-image-14"
+                                                        title="coffee-bean-divider" alt="coffee-bean-divider"></div>
+                                            </div>
+                                            <div data-lazy="1"
+                                                class="module_subrow themify_builder_sub_row tf_w col_align_top tb_col_count_2 tb_8be93b0">
+                                                <div data-lazy="1"
+                                                    class="module_column sub_column col3-2 tb_40eeb57 first"></div>
+                                                <div data-lazy="1"
+                                                    class="module_column sub_column col3-1 tb_e2824e5 last"></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div data-css_id="d6883b7" data-lazy="1"
+                                    class="module_row themify_builder_row fullwidth tb_d6883b7 tf_w"><span
+                                        class="builder_row_cover tf_abs"></span>
+                                    <div class="row_inner col_align_top tb_col_count_2 tf_box tf_rel">
+                                        <div data-lazy="1" class="module_column tb-column col3-2 tb_37c3a8c first">
+                                            <div data-lazy="1"
+                                                class="module_subrow themify_builder_sub_row tf_w col_align_top tb_col_count_2 tb_0f07877">
+                                                <div data-lazy="1"
+                                                    class="module_column sub_column col4-1 tb_bb61206 first">
+                                                    <div class="module module-image tb_ba1fbb1 image-left tf_mw hide-tablet hide-mobile"
+                                                        data-lazy="1">
+                                                        <div class="image-wrap tf_rel tf_mw"> <img loading="lazy"
+                                                                decoding="async"
+                                                                src="https://themify.org/ultra-coffee/wp-content/uploads/sites/12/2023/01/coffee-bean-griled-173x500.jpg"
+                                                                width="173" height="500"
+                                                                class="wp-post-image wp-image-22"
+                                                                title="coffee-bean-griled" alt="coffee-bean-griled"
+                                                                srcset="https://themify.org/ultra-coffee/wp-content/uploads/sites/12/2023/01/coffee-bean-griled.jpg 173w, https://themify.org/ultra-coffee/wp-content/uploads/sites/12/2023/01/coffee-bean-griled-104x300.jpg 104w"
+                                                                sizes="(max-width: 173px) 100vw, 173px" /></div>
+                                                    </div>
+                                                </div>
+                                                <div data-lazy="1"
+                                                    class="module_column sub_column col4-3 tb_e675a8a last">
+                                                    <div class="module module-service-menu tb_1ef8baf image-horizontal no-highlight tf_mw"
+                                                        data-lazy="1">
+                                                        <div class="tb-image-content tf_overflow">
+                                                            <div class="tb-menu-title-wrap">
+                                                                <h4 class="tb-menu-title">Coffee</h4>
+                                                            </div>
+                                                            <div class="tb-menu-price">
+                                                                <div class="tb-price-item">
+                                                                    <div class="tb-price-title">Tall</div>
+                                                                </div>
+                                                                <div class="tb-price-item">
+                                                                    <div class="tb-price-title">Grande</div>
+                                                                </div>
+                                                                <div class="tb-price-item">
+                                                                    <div class="tb-price-title">Venti</div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="module module-service-menu tb_b2d956a image-horizontal no-highlight tf_mw"
+                                                        data-lazy="1">
+                                                        <div class="tb-image-content tf_overflow">
+                                                            <div class="tb-menu-title-wrap">
+                                                                <h4 class="tb-menu-title">Caffè Americano</h4>
+                                                            </div>
+                                                            <div class="tb-menu-price">
+                                                                <div class="tb-price-item">
+                                                                    <div class="tb-price-value">$3.60</div>
+                                                                </div>
+                                                                <div class="tb-price-item">
+                                                                    <div class="tb-price-value">$4.60</div>
+                                                                </div>
+                                                                <div class="tb-price-item">
+                                                                    <div class="tb-price-value">$5.60</div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="module module-service-menu tb_kh2i372 image-horizontal no-highlight tf_mw"
+                                                        data-lazy="1">
+                                                        <div class="tb-image-content tf_overflow">
+                                                            <div class="tb-menu-title-wrap">
+                                                                <h4 class="tb-menu-title">Caffe Latte</h4>
+                                                            </div>
+                                                            <div class="tb-menu-price">
+                                                                <div class="tb-price-item">
+                                                                    <div class="tb-price-value">$4.00</div>
+                                                                </div>
+                                                                <div class="tb-price-item">
+                                                                    <div class="tb-price-value">$5.00</div>
+                                                                </div>
+                                                                <div class="tb-price-item">
+                                                                    <div class="tb-price-value">$6.00</div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="module module-service-menu tb_7e1d373 image-horizontal no-highlight tf_mw"
+                                                        data-lazy="1">
+                                                        <div class="tb-image-content tf_overflow">
+                                                            <div class="tb-menu-title-wrap">
+                                                                <h4 class="tb-menu-title">Cappuccino</h4>
+                                                            </div>
+                                                            <div class="tb-menu-price">
+                                                                <div class="tb-price-item">
+                                                                    <div class="tb-price-value">$4.00</div>
+                                                                </div>
+                                                                <div class="tb-price-item">
+                                                                    <div class="tb-price-value">$5.00</div>
+                                                                </div>
+                                                                <div class="tb-price-item">
+                                                                    <div class="tb-price-value">$6.00</div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="module module-service-menu tb_0ai7373 image-horizontal no-highlight tf_mw"
+                                                        data-lazy="1">
+                                                        <div class="tb-image-content tf_overflow">
+                                                            <div class="tb-menu-title-wrap">
+                                                                <h4 class="tb-menu-title">Caffè Mocha</h4>
+                                                            </div>
+                                                            <div class="tb-menu-price">
+                                                                <div class="tb-price-item">
+                                                                    <div class="tb-price-value">$5.10</div>
+                                                                </div>
+                                                                <div class="tb-price-item">
+                                                                    <div class="tb-price-value">$6.10</div>
+                                                                </div>
+                                                                <div class="tb-price-item">
+                                                                    <div class="tb-price-value">$7.10</div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="module module-service-menu tb_scnl373 image-horizontal no-highlight tf_mw"
+                                                        data-lazy="1">
+                                                        <div class="tb-image-content tf_overflow">
+                                                            <div class="tb-menu-title-wrap">
+                                                                <h4 class="tb-menu-title">Caramel Macchiato</h4>
+                                                            </div>
+                                                            <div class="tb-menu-price">
+                                                                <div class="tb-price-item">
+                                                                    <div class="tb-price-value">$5.40</div>
+                                                                </div>
+                                                                <div class="tb-price-item">
+                                                                    <div class="tb-price-value">$6.40</div>
+                                                                </div>
+                                                                <div class="tb-price-item">
+                                                                    <div class="tb-price-value">$7.40</div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="module module-service-menu tb_ea6x373 image-horizontal no-highlight tf_mw"
+                                                        data-lazy="1">
+                                                        <div class="tb-image-content tf_overflow">
+                                                            <div class="tb-menu-title-wrap">
+                                                                <h4 class="tb-menu-title">Raspberry White</h4>
+                                                            </div>
+                                                            <div class="tb-menu-price">
+                                                                <div class="tb-price-item">
+                                                                    <div class="tb-price-value">$5.70</div>
+                                                                </div>
+                                                                <div class="tb-price-item">
+                                                                    <div class="tb-price-value">$6.70</div>
+                                                                </div>
+                                                                <div class="tb-price-item">
+                                                                    <div class="tb-price-value">$7.70</div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="module module-service-menu tb_xvlg373 image-horizontal no-highlight tf_mw"
+                                                        data-lazy="1">
+                                                        <div class="tb-image-content tf_overflow">
+                                                            <div class="tb-menu-title-wrap">
+                                                                <h4 class="tb-menu-title">Dolce De Late</h4>
+                                                            </div>
+                                                            <div class="tb-menu-price">
+                                                                <div class="tb-price-item">
+                                                                    <div class="tb-price-value">$5.90</div>
+                                                                </div>
+                                                                <div class="tb-price-item">
+                                                                    <div class="tb-price-value">$6.90</div>
+                                                                </div>
+                                                                <div class="tb-price-item">
+                                                                    <div class="tb-price-value">$7.90</div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div data-lazy="1" class="module_column tb-column col3-1 tb_2eb563b last">
+                                            <div class="module module-image tb_79499f0 image-right tf_mw" data-lazy="1">
+                                                <div class="image-wrap tf_rel tf_mw"> <img loading="lazy"
+                                                        decoding="async"
+                                                        src="https://themify.org/ultra-coffee/wp-content/uploads/sites/12/2023/01/hot-coffee-cup-600x443.jpg"
+                                                        width="600" height="443" class="wp-post-image wp-image-23"
+                                                        title="hot-coffee-cup" alt="hot-coffee-cup"
+                                                        srcset="https://themify.org/ultra-coffee/wp-content/uploads/sites/12/2023/01/hot-coffee-cup.jpg 600w, https://themify.org/ultra-coffee/wp-content/uploads/sites/12/2023/01/hot-coffee-cup-300x222.jpg 300w"
+                                                        sizes="(max-width: 600px) 100vw, 600px" /></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div data-css_id="e5c37a3" data-lazy="1"
+                                    class="module_row themify_builder_row fullwidth tb_e5c37a3 tf_w"><span
+                                        class="builder_row_cover tf_abs"></span>
+                                    <div class="row_inner col_align_middle tb_col_count_2 tf_box tf_rel">
+                                        <div data-lazy="1" class="module_column tb-column col3-1 tb_33f1e36 first">
+                                            <div class="module module-image tb_69139af image-left tf_mw" data-lazy="1">
+                                                <div class="image-wrap tf_rel tf_mw"> <img
+                                                        src="data:image/svg+xml,%3Csvg%20xmlns=%27http://www.w3.org/2000/svg%27%20width='600'%20height='566'%20viewBox=%270%200%20600%20566%27%3E%3C/svg%3E"
+                                                        loading="lazy" data-lazy="1"
+                                                        style="background:linear-gradient(to right,#ffffff 25%,#58412f 25% 50%,#928b81 50% 75%,#ffffff 75%),linear-gradient(to right,#e4e4e4 25%,#eceaeb 25% 50%,#e7e7e7 50% 75%,#ffffff 75%),linear-gradient(to right,#f4f4f4 25%,#b0b0b0 25% 50%,#a5a5a5 50% 75%,#f0f0f0 75%),linear-gradient(to right,#261616 25%,#f0f0f0 25% 50%,#f6f6f6 50% 75%,#ffffff 75%)"
+                                                        decoding="async"
+                                                        data-tf-src="https://themify.org/ultra-coffee/wp-content/uploads/sites/12/2023/01/coffee-bean-cup-600x566-1-600x566.jpg"
+                                                        width="600" height="566"
+                                                        class="tf_svg_lazy wp-post-image wp-image-24"
+                                                        title="coffee-bean-cup-600x566-1"
+                                                        alt="coffee-bean-cup-600x566-1"
+                                                        data-tf-srcset="https://themify.org/ultra-coffee/wp-content/uploads/sites/12/2023/01/coffee-bean-cup-600x566-1.jpg 600w, https://themify.org/ultra-coffee/wp-content/uploads/sites/12/2023/01/coffee-bean-cup-600x566-1-300x283.jpg 300w"
+                                                        data-tf-sizes="(max-width: 600px) 100vw, 600px" /><noscript><img
+                                                            decoding="async" data-tf-not-load
+                                                            src="https://themify.org/ultra-coffee/wp-content/uploads/sites/12/2023/01/coffee-bean-cup-600x566-1-600x566.jpg"
+                                                            width="600" height="566" class="wp-post-image wp-image-24"
+                                                            title="coffee-bean-cup-600x566-1"
+                                                            alt="coffee-bean-cup-600x566-1"
+                                                            srcset="https://themify.org/ultra-coffee/wp-content/uploads/sites/12/2023/01/coffee-bean-cup-600x566-1.jpg 600w, https://themify.org/ultra-coffee/wp-content/uploads/sites/12/2023/01/coffee-bean-cup-600x566-1-300x283.jpg 300w"
+                                                            sizes="(max-width: 600px) 100vw, 600px" /></noscript></div>
+                                            </div>
+                                        </div>
+                                        <div data-lazy="1" class="module_column tb-column col3-2 tb_4dae386 last">
+                                            <div data-lazy="1"
+                                                class="module_subrow themify_builder_sub_row tf_w col_align_top tb_col_count_2 tb_9640bc6">
+                                                <div data-lazy="1"
+                                                    class="module_column sub_column col3-2 tb_164e4a6 first">
+                                                    <div class="module module-service-menu tb_dko5374 image-horizontal no-highlight tf_mw"
+                                                        data-lazy="1">
+                                                        <div class="tb-image-content tf_overflow">
+                                                            <div class="tb-menu-title-wrap">
+                                                                <h4 class="tb-menu-title">Espresso</h4>
+                                                            </div>
+                                                            <div class="tb-menu-price">
+                                                                <div class="tb-price-item">
+                                                                    <div class="tb-price-title">Single</div>
+                                                                </div>
+                                                                <div class="tb-price-item">
+                                                                    <div class="tb-price-title">Double</div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="module module-service-menu tb_bf02394 image-horizontal no-highlight tf_mw"
+                                                        data-lazy="1">
+                                                        <div class="tb-image-content tf_overflow">
+                                                            <div class="tb-menu-title-wrap">
+                                                                <h4 class="tb-menu-title">Espresso</h4>
+                                                            </div>
+                                                            <div class="tb-menu-price">
+                                                                <div class="tb-price-item">
+                                                                    <div class="tb-price-value">$3.00</div>
+                                                                </div>
+                                                                <div class="tb-price-item">
+                                                                    <div class="tb-price-value">$4.00</div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="module module-service-menu tb_0pq4374 image-horizontal no-highlight tf_mw"
+                                                        data-lazy="1">
+                                                        <div class="tb-image-content tf_overflow">
+                                                            <div class="tb-menu-title-wrap">
+                                                                <h4 class="tb-menu-title">Espresso Macchiato</h4>
+                                                            </div>
+                                                            <div class="tb-menu-price">
+                                                                <div class="tb-price-item">
+                                                                    <div class="tb-price-value">$4.00</div>
+                                                                </div>
+                                                                <div class="tb-price-item">
+                                                                    <div class="tb-price-value">$5.00</div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="module module-service-menu tb_1k6j374 image-horizontal no-highlight tf_mw"
+                                                        data-lazy="1">
+                                                        <div class="tb-image-content tf_overflow">
+                                                            <div class="tb-menu-title-wrap">
+                                                                <h4 class="tb-menu-title">Espresso Con Panna</h4>
+                                                            </div>
+                                                            <div class="tb-menu-price">
+                                                                <div class="tb-price-item">
+                                                                    <div class="tb-price-value">$4.20</div>
+                                                                </div>
+                                                                <div class="tb-price-item">
+                                                                    <div class="tb-price-value">$5.20</div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="module module-service-menu tb_mc7g375 image-horizontal no-highlight tf_mw"
+                                                        data-lazy="1">
+                                                        <div class="tb-image-content tf_overflow">
+                                                            <div class="tb-menu-title-wrap">
+                                                                <h4 class="tb-menu-title">Brewed Coffee</h4>
+                                                            </div>
+                                                            <div class="tb-menu-price">
+                                                                <div class="tb-price-item">
+                                                                    <div class="tb-price-title">Tall</div>
+                                                                </div>
+                                                                <div class="tb-price-item">
+                                                                    <div class="tb-price-title">Grande</div>
+                                                                </div>
+                                                                <div class="tb-price-item">
+                                                                    <div class="tb-price-title">Venti</div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="module module-service-menu tb_vt2e375 image-horizontal no-highlight tf_mw"
+                                                        data-lazy="1">
+                                                        <div class="tb-image-content tf_overflow">
+                                                            <div class="tb-menu-title-wrap">
+                                                                <h4 class="tb-menu-title">Caffè Tradizionale</h4>
+                                                            </div>
+                                                            <div class="tb-menu-price">
+                                                                <div class="tb-price-item">
+                                                                    <div class="tb-price-value">$3.00</div>
+                                                                </div>
+                                                                <div class="tb-price-item">
+                                                                    <div class="tb-price-value">$4.00</div>
+                                                                </div>
+                                                                <div class="tb-price-item">
+                                                                    <div class="tb-price-value">$5.00</div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="module module-service-menu tb_045k375 image-horizontal no-highlight tf_mw"
+                                                        data-lazy="1">
+                                                        <div class="tb-image-content tf_overflow">
+                                                            <div class="tb-menu-title-wrap">
+                                                                <h4 class="tb-menu-title">Shot In The Dark</h4>
+                                                            </div>
+                                                            <div class="tb-menu-price">
+                                                                <div class="tb-price-item">
+                                                                    <div class="tb-price-value">$6.00</div>
+                                                                </div>
+                                                                <div class="tb-price-item">
+                                                                    <div class="tb-price-value">$7.00</div>
+                                                                </div>
+                                                                <div class="tb-price-item">
+                                                                    <div class="tb-price-value">$8.00</div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div data-lazy="1"
+                                                    class="module_column sub_column col3-1 tb_5e81bbb last"></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div data-css_id="2f186ac" data-lazy="1"
+                                    class="module_row themify_builder_row fullwidth tb_2f186ac tf_w"><span
+                                        class="builder_row_cover tf_abs"></span>
+                                    <div class="row_inner col_align_middle tb_col_count_2 tf_box tf_rel">
+                                        <div data-lazy="1" class="module_column tb-column col4-2 tb_32fae0a first">
+                                            <div data-lazy="1"
+                                                class="module_subrow themify_builder_sub_row tf_w col_align_top tb_col_count_2 tb_81faaf7">
+                                                <div data-lazy="1"
+                                                    class="module_column sub_column col4-1 tb_7243da1 first"></div>
+                                                <div data-lazy="1"
+                                                    class="module_column sub_column col4-3 tb_117a217 last">
+                                                    <div class="module module-service-menu tb_doyy376 image-horizontal no-highlight tf_mw"
+                                                        data-lazy="1">
+                                                        <div class="tb-image-content tf_overflow">
+                                                            <div class="tb-menu-title-wrap">
+                                                                <h4 class="tb-menu-title">Breads & Yogurt</h4>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="module module-service-menu tb_jpvi376 image-horizontal no-highlight tf_mw"
+                                                        data-lazy="1">
+                                                        <div class="tb-image-content tf_overflow">
+                                                            <div class="tb-menu-title-wrap">
+                                                                <h4 class="tb-menu-title">Croissant</h4>
+                                                            </div>
+                                                            <div class="tb-menu-price">
+                                                                <div class="tb-price-item">
+                                                                    <div class="tb-price-value">$4.00</div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="module module-service-menu tb_lmt7376 image-horizontal no-highlight tf_mw"
+                                                        data-lazy="1">
+                                                        <div class="tb-image-content tf_overflow">
+                                                            <div class="tb-menu-title-wrap">
+                                                                <h4 class="tb-menu-title">Pain au Chocolat</h4>
+                                                            </div>
+                                                            <div class="tb-menu-price">
+                                                                <div class="tb-price-item">
+                                                                    <div class="tb-price-value">$5.00</div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="module module-service-menu tb_adj2376 image-horizontal no-highlight tf_mw"
+                                                        data-lazy="1">
+                                                        <div class="tb-image-content tf_overflow">
+                                                            <div class="tb-menu-title-wrap">
+                                                                <h4 class="tb-menu-title">Yogurt & Granola Parfait</h4>
+                                                            </div>
+                                                            <div class="tb-menu-price">
+                                                                <div class="tb-price-item">
+                                                                    <div class="tb-price-value">$6.50</div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div data-lazy="1" class="module_column tb-column col4-2 tb_90fe811 last">
+                                            <div class="module module-image tb_c0f8be9 image-right tf_mw" data-lazy="1">
+                                                <div class="image-wrap tf_rel tf_mw"> <img
+                                                        src="data:image/svg+xml,%3Csvg%20xmlns=%27http://www.w3.org/2000/svg%27%20width='768'%20height='590'%20viewBox=%270%200%20768%20590%27%3E%3C/svg%3E"
+                                                        loading="lazy" data-lazy="1"
+                                                        style="background:linear-gradient(to right,#ffffff 25%,#ffffff 25% 50%,#fffeff 50% 75%,#ffffff 75%),linear-gradient(to right,#fefefe 25%,#481f19 25% 50%,#e6e1e5 50% 75%,#e4d5ce 75%),linear-gradient(to right,#fefefe 25%,#8f3f38 25% 50%,#d2b595 50% 75%,#ca7d35 75%),linear-gradient(to right,#ffffff 25%,#fefefe 25% 50%,#f8f8f8 50% 75%,#f6f6f6 75%)"
+                                                        decoding="async"
+                                                        data-tf-src="https://themify.org/ultra-coffee/wp-content/uploads/sites/12/2023/01/breads-768x590.jpg"
+                                                        width="768" height="590"
+                                                        class="tf_svg_lazy wp-post-image wp-image-25" title="breads"
+                                                        alt="breads"
+                                                        data-tf-srcset="https://themify.org/ultra-coffee/wp-content/uploads/sites/12/2023/01/breads.jpg 768w, https://themify.org/ultra-coffee/wp-content/uploads/sites/12/2023/01/breads-300x230.jpg 300w, https://themify.org/ultra-coffee/wp-content/uploads/sites/12/2023/01/breads-600x461.jpg 600w"
+                                                        data-tf-sizes="(max-width: 768px) 100vw, 768px" /><noscript><img
+                                                            decoding="async" data-tf-not-load
+                                                            src="https://themify.org/ultra-coffee/wp-content/uploads/sites/12/2023/01/breads-768x590.jpg"
+                                                            width="768" height="590" class="wp-post-image wp-image-25"
+                                                            title="breads" alt="breads"
+                                                            srcset="https://themify.org/ultra-coffee/wp-content/uploads/sites/12/2023/01/breads.jpg 768w, https://themify.org/ultra-coffee/wp-content/uploads/sites/12/2023/01/breads-300x230.jpg 300w, https://themify.org/ultra-coffee/wp-content/uploads/sites/12/2023/01/breads-600x461.jpg 600w"
+                                                            sizes="(max-width: 768px) 100vw, 768px" /></noscript></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div data-lazy="1" class="module_row themify_builder_row tb_7b00361 tf_w"><span
+                                        class="builder_row_cover tf_abs"></span>
+                                    <div class="row_inner col_align_top tb_col_count_2 tf_box tf_rel">
+                                        <div data-lazy="1" class="module_column tb-column col4-2 tb_aokz377 first">
+                                            <div class="module module-fancy-heading tb_m4v4377 " data-lazy="1">
+                                                <h3 class="fancy-heading tf_textc"><span
+                                                        class="main-head tf_block">Signature Coffee </span> <span
+                                                        class="sub-head tf_block tf_rel">The Best Blend in the City
+                                                    </span></h3>
+                                            </div>
+                                            <div class="module module-image tb_bb0e377 image-center tf_mw"
+                                                data-lazy="1">
+                                                <div class="image-wrap tf_rel tf_mw"> <img data-tf-not-load="1"
+                                                        fetchpriority="high" loading="auto" decoding="auto"
+                                                        decoding="async"
+                                                        src="https://themify.org/ultra-coffee/wp-content/uploads/sites/12/2023/01/coffee-bean-divider-300x21.png"
+                                                        width="300" height="21" class="wp-post-image wp-image-14"
+                                                        title="coffee-bean-divider" alt="coffee-bean-divider"></div>
+                                            </div>
+                                            <div class="module module-text tb_xb7w377 repeat " data-lazy="1">
+                                                <div class="tb_text_wrap">
+                                                    <p>It all started with this one little roast&#8230; <br />Roasty
+                                                        sweet, rich, deep, and smooth &#8211; our Signature Coffee blend
+                                                        became an overnight success &#8211; we couldn&#8217;t roast
+                                                        enough to keep up with daily demands! We&#8217;ve added 11 new
+                                                        roast friends to keep her company, and they&#8217;re being loved
+                                                        far and wide.</p>
+                                                </div>
+                                            </div>
+                                            <div class="module module-buttons tb_fc19f3f buttons-horizontal outline xlarge squared"
+                                                data-lazy="1">
+                                                <div class="module-buttons-item tf_in_flx"><a
+                                                        href="https://themify.org/ultra-coffee/about/"
+                                                        class="ui builder_button tf_in_flx tb_default_color">Explore All
+                                                        Roasts</a></div>
+                                            </div>
+                                        </div>
+                                        <div data-lazy="1" class="module_column tb-column col4-2 tb_7dced11 last"></div>
+                                    </div>
+                                </div>
+                                <div data-lazy="1" class="module_row themify_builder_row tb_695ebc5 tf_w">
+                                    <div class="row_inner col_align_top tb_col_count_1 tf_box tf_rel">
+                                        <div data-lazy="1" class="module_column tb-column col-full tb_988fad9 first">
+                                            <div class="module module-fancy-heading tb_uf2c377 tb_hide_divider"
+                                                data-lazy="1">
+                                                <h3 class="fancy-heading tf_textc"><span
+                                                        class="main-head tf_block">Online Coffee Shop </span> <span
+                                                        class="sub-head tf_block tf_rel">Yours to love and brew at home
+                                                    </span></h3>
+                                            </div>
+                                            <div class="module module-image tb_qdbe378 image-center tf_mw"
+                                                data-lazy="1">
+                                                <div class="image-wrap tf_rel tf_mw"> <img data-tf-not-load="1"
+                                                        fetchpriority="high" loading="auto" decoding="auto"
+                                                        decoding="async"
+                                                        src="https://themify.org/ultra-coffee/wp-content/uploads/sites/12/2023/01/coffee-bean-divider-300x21.png"
+                                                        width="300" height="21" class="wp-post-image wp-image-14"
+                                                        title="coffee-bean-divider" alt="coffee-bean-divider"></div>
+                                            </div>
+                                            <div id="tb_c0b9855" class="module woocommerce module-products tb_c0b9855 "
+                                                data-lazy="1">
+                                                <ul class="loops-wrapper products wc-products grid4 masonry classic tf_rel tf_clearfix"
+                                                    data-lazy="1">
+                                                    <li
+                                                        class="post has-post-title has-post-date no-post-category no-post-tag has-post-comment has-post-author product type-product post-58 status-publish instock product_cat-equipment has-post-thumbnail shipping-taxable purchasable product-type-simple">
+                                                        <figure class="post-image product-image"><a
+                                                                href="https://themify.org/ultra-coffee/product/duo-coffee-steeper/"><img
+                                                                    src="data:image/svg+xml,%3Csvg%20xmlns=%27http://www.w3.org/2000/svg%27%20width='275'%20height='275'%20viewBox=%270%200%20275%20275%27%3E%3C/svg%3E"
+                                                                    loading="lazy" data-lazy="1"
+                                                                    style="background:linear-gradient(to right,#f3f3f3 25%,#f3f3f3 25% 50%,#f3f3f3 50% 75%,#f3f3f3 75%),linear-gradient(to right,#f3f3f3 25%,#f3f3f3 25% 50%,#76726f 50% 75%,#f3f3f3 75%),linear-gradient(to right,#f3f3f3 25%,#f3f3f3 25% 50%,#ede7d9 50% 75%,#f3f3f3 75%),linear-gradient(to right,#f3f3f3 25%,#f3f3f3 25% 50%,#f3f3f3 50% 75%,#f3f3f3 75%)"
+                                                                    decoding="async"
+                                                                    data-tf-src="https://themify.org/ultra-coffee/wp-content/uploads/sites/12/2019/02/duo-coffee-mixer-275x275.jpg"
+                                                                    width="275" height="275"
+                                                                    class="tf_svg_lazy wp-post-image wp-image-65"
+                                                                    title="duo-coffee-mixer" alt="Duo Coffee Steeper"
+                                                                    data-tf-srcset="https://themify.org/ultra-coffee/wp-content/uploads/sites/12/2019/02/duo-coffee-mixer-275x275.jpg 275w, https://themify.org/ultra-coffee/wp-content/uploads/sites/12/2019/02/duo-coffee-mixer-300x300.jpg 300w, https://themify.org/ultra-coffee/wp-content/uploads/sites/12/2019/02/duo-coffee-mixer-150x150.jpg 150w, https://themify.org/ultra-coffee/wp-content/uploads/sites/12/2019/02/duo-coffee-mixer-100x100.jpg 100w, https://themify.org/ultra-coffee/wp-content/uploads/sites/12/2019/02/duo-coffee-mixer-600x600.jpg 600w, https://themify.org/ultra-coffee/wp-content/uploads/sites/12/2019/02/duo-coffee-mixer-47x48.jpg 47w, https://themify.org/ultra-coffee/wp-content/uploads/sites/12/2019/02/duo-coffee-mixer.jpg 560w"
+                                                                    data-tf-sizes="(max-width: 275px) 100vw, 275px" /><noscript><img
+                                                                        decoding="async" data-tf-not-load
+                                                                        src="https://themify.org/ultra-coffee/wp-content/uploads/sites/12/2019/02/duo-coffee-mixer-275x275.jpg"
+                                                                        width="275" height="275"
+                                                                        class="wp-post-image wp-image-65"
+                                                                        title="duo-coffee-mixer"
+                                                                        alt="Duo Coffee Steeper"
+                                                                        srcset="https://themify.org/ultra-coffee/wp-content/uploads/sites/12/2019/02/duo-coffee-mixer-275x275.jpg 275w, https://themify.org/ultra-coffee/wp-content/uploads/sites/12/2019/02/duo-coffee-mixer-300x300.jpg 300w, https://themify.org/ultra-coffee/wp-content/uploads/sites/12/2019/02/duo-coffee-mixer-150x150.jpg 150w, https://themify.org/ultra-coffee/wp-content/uploads/sites/12/2019/02/duo-coffee-mixer-100x100.jpg 100w, https://themify.org/ultra-coffee/wp-content/uploads/sites/12/2019/02/duo-coffee-mixer-600x600.jpg 600w, https://themify.org/ultra-coffee/wp-content/uploads/sites/12/2019/02/duo-coffee-mixer-47x48.jpg 47w, https://themify.org/ultra-coffee/wp-content/uploads/sites/12/2019/02/duo-coffee-mixer.jpg 560w"
+                                                                        sizes="(max-width: 275px) 100vw, 275px" /></noscript></a>
+                                                        </figure>
+                                                        <div class="post-content">
+                                                            <div class="product-content">
+                                                                <h3
+                                                                    class="product_title woocommerce-loop-product__title">
+                                                                    <a href="https://themify.org/ultra-coffee/product/duo-coffee-steeper/"
+                                                                        title="Duo Coffee Steeper">Duo Coffee
+                                                                        Steeper</a></h3> <span class="price"><span
+                                                                        class="woocommerce-Price-amount amount"><bdi><span
+                                                                                class="woocommerce-Price-currencySymbol">&#36;</span>99.00</bdi></span></span>
+                                                                <p class="add-to-cart-button"><a href="?add-to-cart=58"
+                                                                        data-quantity="1"
+                                                                        class="button product_type_simple add_to_cart_button ajax_add_to_cart"
+                                                                        data-product_id="58" data-product_sku
+                                                                        aria-label="Add to cart: &ldquo;Duo Coffee Steeper&rdquo;"
+                                                                        aria-describedby rel="nofollow">Add to cart</a>
+                                                                </p>
+                                                            </div>
+                                                        </div>
+                                                    </li>
+                                                    <li
+                                                        class="post has-post-title has-post-date no-post-category no-post-tag has-post-comment has-post-author product type-product post-57 status-publish instock product_cat-coffee has-post-thumbnail shipping-taxable purchasable product-type-simple">
+                                                        <figure class="post-image product-image"><a
+                                                                href="https://themify.org/ultra-coffee/product/dukune-rwanda-coffee/"><img
+                                                                    src="data:image/svg+xml,%3Csvg%20xmlns=%27http://www.w3.org/2000/svg%27%20width='275'%20height='275'%20viewBox=%270%200%20275%20275%27%3E%3C/svg%3E"
+                                                                    loading="lazy" data-lazy="1"
+                                                                    style="background:linear-gradient(to right,#f4f4f4 25%,#f4f4f4 25% 50%,#f4f4f4 50% 75%,#f4f4f4 75%),linear-gradient(to right,#f4f4f4 25%,#e2e0e3 25% 50%,#79595c 50% 75%,#f4f4f4 75%),linear-gradient(to right,#f4f4f4 25%,#d8d3d9 25% 50%,#604c45 50% 75%,#f4f4f4 75%),linear-gradient(to right,#f4f4f4 25%,#f0f0f2 25% 50%,#f1f1f1 50% 75%,#f4f4f4 75%)"
+                                                                    decoding="async"
+                                                                    data-tf-src="https://themify.org/ultra-coffee/wp-content/uploads/sites/12/2019/02/original-rwanda-coffee-275x275.jpg"
+                                                                    width="275" height="275"
+                                                                    class="tf_svg_lazy wp-post-image wp-image-72"
+                                                                    title="original-rwanda-coffee"
+                                                                    alt="Dukune Rwanda Coffee"
+                                                                    data-tf-srcset="https://themify.org/ultra-coffee/wp-content/uploads/sites/12/2019/02/original-rwanda-coffee-275x275.jpg 275w, https://themify.org/ultra-coffee/wp-content/uploads/sites/12/2019/02/original-rwanda-coffee-300x300.jpg 300w, https://themify.org/ultra-coffee/wp-content/uploads/sites/12/2019/02/original-rwanda-coffee-150x150.jpg 150w, https://themify.org/ultra-coffee/wp-content/uploads/sites/12/2019/02/original-rwanda-coffee-100x100.jpg 100w, https://themify.org/ultra-coffee/wp-content/uploads/sites/12/2019/02/original-rwanda-coffee-600x600.jpg 600w, https://themify.org/ultra-coffee/wp-content/uploads/sites/12/2019/02/original-rwanda-coffee-47x48.jpg 47w, https://themify.org/ultra-coffee/wp-content/uploads/sites/12/2019/02/original-rwanda-coffee.jpg 560w"
+                                                                    data-tf-sizes="(max-width: 275px) 100vw, 275px" /><noscript><img
+                                                                        decoding="async" data-tf-not-load
+                                                                        src="https://themify.org/ultra-coffee/wp-content/uploads/sites/12/2019/02/original-rwanda-coffee-275x275.jpg"
+                                                                        width="275" height="275"
+                                                                        class="wp-post-image wp-image-72"
+                                                                        title="original-rwanda-coffee"
+                                                                        alt="Dukune Rwanda Coffee"
+                                                                        srcset="https://themify.org/ultra-coffee/wp-content/uploads/sites/12/2019/02/original-rwanda-coffee-275x275.jpg 275w, https://themify.org/ultra-coffee/wp-content/uploads/sites/12/2019/02/original-rwanda-coffee-300x300.jpg 300w, https://themify.org/ultra-coffee/wp-content/uploads/sites/12/2019/02/original-rwanda-coffee-150x150.jpg 150w, https://themify.org/ultra-coffee/wp-content/uploads/sites/12/2019/02/original-rwanda-coffee-100x100.jpg 100w, https://themify.org/ultra-coffee/wp-content/uploads/sites/12/2019/02/original-rwanda-coffee-600x600.jpg 600w, https://themify.org/ultra-coffee/wp-content/uploads/sites/12/2019/02/original-rwanda-coffee-47x48.jpg 47w, https://themify.org/ultra-coffee/wp-content/uploads/sites/12/2019/02/original-rwanda-coffee.jpg 560w"
+                                                                        sizes="(max-width: 275px) 100vw, 275px" /></noscript></a>
+                                                        </figure>
+                                                        <div class="post-content">
+                                                            <div class="product-content">
+                                                                <h3
+                                                                    class="product_title woocommerce-loop-product__title">
+                                                                    <a href="https://themify.org/ultra-coffee/product/dukune-rwanda-coffee/"
+                                                                        title="Dukune Rwanda Coffee">Dukune Rwanda
+                                                                        Coffee</a></h3> <span class="price"><span
+                                                                        class="woocommerce-Price-amount amount"><bdi><span
+                                                                                class="woocommerce-Price-currencySymbol">&#36;</span>10.00</bdi></span></span>
+                                                                <p class="add-to-cart-button"><a href="?add-to-cart=57"
+                                                                        data-quantity="1"
+                                                                        class="button product_type_simple add_to_cart_button ajax_add_to_cart"
+                                                                        data-product_id="57" data-product_sku
+                                                                        aria-label="Add to cart: &ldquo;Dukune Rwanda Coffee&rdquo;"
+                                                                        aria-describedby rel="nofollow">Add to cart</a>
+                                                                </p>
+                                                            </div>
+                                                        </div>
+                                                    </li>
+                                                    <li
+                                                        class="post has-post-title has-post-date no-post-category no-post-tag has-post-comment has-post-author product type-product post-56 status-publish instock product_cat-coffee has-post-thumbnail shipping-taxable purchasable product-type-simple">
+                                                        <figure class="post-image product-image"><a
+                                                                href="https://themify.org/ultra-coffee/product/premium-le-mans-coffee/"><img
+                                                                    src="data:image/svg+xml,%3Csvg%20xmlns=%27http://www.w3.org/2000/svg%27%20width='275'%20height='275'%20viewBox=%270%200%20275%20275%27%3E%3C/svg%3E"
+                                                                    loading="lazy" data-lazy="1"
+                                                                    style="background:linear-gradient(to right,#f4f4f4 25%,#f4f4f4 25% 50%,#f4f4f4 50% 75%,#f4f4f4 75%),linear-gradient(to right,#f4f4f4 25%,#d7d7d7 25% 50%,#bfe5fa 50% 75%,#a4a4a4 75%),linear-gradient(to right,#f4f4f4 25%,#cbcbcb 25% 50%,#86a1ac 50% 75%,#c8c8c8 75%),linear-gradient(to right,#f4f4f4 25%,#f4f4f4 25% 50%,#f4f4f4 50% 75%,#f4f4f4 75%)"
+                                                                    decoding="async"
+                                                                    data-tf-src="https://themify.org/ultra-coffee/wp-content/uploads/sites/12/2019/02/lemans-drive-coffee-275x275.jpg"
+                                                                    width="275" height="275"
+                                                                    class="tf_svg_lazy wp-post-image wp-image-63"
+                                                                    title="lemans-drive-coffee"
+                                                                    alt="Premium Le Mans Coffee"
+                                                                    data-tf-srcset="https://themify.org/ultra-coffee/wp-content/uploads/sites/12/2019/02/lemans-drive-coffee-275x275.jpg 275w, https://themify.org/ultra-coffee/wp-content/uploads/sites/12/2019/02/lemans-drive-coffee-300x300.jpg 300w, https://themify.org/ultra-coffee/wp-content/uploads/sites/12/2019/02/lemans-drive-coffee-150x150.jpg 150w, https://themify.org/ultra-coffee/wp-content/uploads/sites/12/2019/02/lemans-drive-coffee-100x100.jpg 100w, https://themify.org/ultra-coffee/wp-content/uploads/sites/12/2019/02/lemans-drive-coffee-600x600.jpg 600w, https://themify.org/ultra-coffee/wp-content/uploads/sites/12/2019/02/lemans-drive-coffee-47x48.jpg 47w, https://themify.org/ultra-coffee/wp-content/uploads/sites/12/2019/02/lemans-drive-coffee.jpg 560w"
+                                                                    data-tf-sizes="(max-width: 275px) 100vw, 275px" /><noscript><img
+                                                                        decoding="async" data-tf-not-load
+                                                                        src="https://themify.org/ultra-coffee/wp-content/uploads/sites/12/2019/02/lemans-drive-coffee-275x275.jpg"
+                                                                        width="275" height="275"
+                                                                        class="wp-post-image wp-image-63"
+                                                                        title="lemans-drive-coffee"
+                                                                        alt="Premium Le Mans Coffee"
+                                                                        srcset="https://themify.org/ultra-coffee/wp-content/uploads/sites/12/2019/02/lemans-drive-coffee-275x275.jpg 275w, https://themify.org/ultra-coffee/wp-content/uploads/sites/12/2019/02/lemans-drive-coffee-300x300.jpg 300w, https://themify.org/ultra-coffee/wp-content/uploads/sites/12/2019/02/lemans-drive-coffee-150x150.jpg 150w, https://themify.org/ultra-coffee/wp-content/uploads/sites/12/2019/02/lemans-drive-coffee-100x100.jpg 100w, https://themify.org/ultra-coffee/wp-content/uploads/sites/12/2019/02/lemans-drive-coffee-600x600.jpg 600w, https://themify.org/ultra-coffee/wp-content/uploads/sites/12/2019/02/lemans-drive-coffee-47x48.jpg 47w, https://themify.org/ultra-coffee/wp-content/uploads/sites/12/2019/02/lemans-drive-coffee.jpg 560w"
+                                                                        sizes="(max-width: 275px) 100vw, 275px" /></noscript></a>
+                                                        </figure>
+                                                        <div class="post-content">
+                                                            <div class="product-content">
+                                                                <h3
+                                                                    class="product_title woocommerce-loop-product__title">
+                                                                    <a href="https://themify.org/ultra-coffee/product/premium-le-mans-coffee/"
+                                                                        title="Premium Le Mans Coffee">Premium Le Mans
+                                                                        Coffee</a></h3> <span class="price"><span
+                                                                        class="woocommerce-Price-amount amount"><bdi><span
+                                                                                class="woocommerce-Price-currencySymbol">&#36;</span>25.00</bdi></span></span>
+                                                                <p class="add-to-cart-button"><a href="?add-to-cart=56"
+                                                                        data-quantity="1"
+                                                                        class="button product_type_simple add_to_cart_button ajax_add_to_cart"
+                                                                        data-product_id="56" data-product_sku
+                                                                        aria-label="Add to cart: &ldquo;Premium Le Mans Coffee&rdquo;"
+                                                                        aria-describedby rel="nofollow">Add to cart</a>
+                                                                </p>
+                                                            </div>
+                                                        </div>
+                                                    </li>
+                                                    <li
+                                                        class="post has-post-title has-post-date no-post-category no-post-tag has-post-comment has-post-author product type-product post-55 status-publish instock product_cat-coffee has-post-thumbnail shipping-taxable purchasable product-type-simple">
+                                                        <figure class="post-image product-image"><a
+                                                                href="https://themify.org/ultra-coffee/product/keto-french-vanilla/"><img
+                                                                    src="data:image/svg+xml,%3Csvg%20xmlns=%27http://www.w3.org/2000/svg%27%20width='275'%20height='275'%20viewBox=%270%200%20275%20275%27%3E%3C/svg%3E"
+                                                                    loading="lazy" data-lazy="1"
+                                                                    style="background:linear-gradient(to right,#f4f4f4 25%,#f4f4f4 25% 50%,#f4f4f4 50% 75%,#f4f4f4 75%),linear-gradient(to right,#f4f4f4 25%,#927055 25% 50%,#8c6c45 50% 75%,#f4f4f4 75%),linear-gradient(to right,#f4f4f4 25%,#846549 25% 50%,#e4e2e3 50% 75%,#f4f4f4 75%),linear-gradient(to right,#f4f4f4 25%,#87654a 25% 50%,#f4f4f4 50% 75%,#f4f4f4 75%)"
+                                                                    decoding="async"
+                                                                    data-tf-src="https://themify.org/ultra-coffee/wp-content/uploads/sites/12/2019/02/ketp-french-vamila-275x275.jpg"
+                                                                    width="275" height="275"
+                                                                    class="tf_svg_lazy wp-post-image wp-image-64"
+                                                                    title="ketp-french-vamila" alt="Keto French Vanilla"
+                                                                    data-tf-srcset="https://themify.org/ultra-coffee/wp-content/uploads/sites/12/2019/02/ketp-french-vamila-275x275.jpg 275w, https://themify.org/ultra-coffee/wp-content/uploads/sites/12/2019/02/ketp-french-vamila-300x300.jpg 300w, https://themify.org/ultra-coffee/wp-content/uploads/sites/12/2019/02/ketp-french-vamila-150x150.jpg 150w, https://themify.org/ultra-coffee/wp-content/uploads/sites/12/2019/02/ketp-french-vamila-100x100.jpg 100w, https://themify.org/ultra-coffee/wp-content/uploads/sites/12/2019/02/ketp-french-vamila-600x600.jpg 600w, https://themify.org/ultra-coffee/wp-content/uploads/sites/12/2019/02/ketp-french-vamila-47x48.jpg 47w, https://themify.org/ultra-coffee/wp-content/uploads/sites/12/2019/02/ketp-french-vamila.jpg 560w"
+                                                                    data-tf-sizes="(max-width: 275px) 100vw, 275px" /><noscript><img
+                                                                        decoding="async" data-tf-not-load
+                                                                        src="https://themify.org/ultra-coffee/wp-content/uploads/sites/12/2019/02/ketp-french-vamila-275x275.jpg"
+                                                                        width="275" height="275"
+                                                                        class="wp-post-image wp-image-64"
+                                                                        title="ketp-french-vamila"
+                                                                        alt="Keto French Vanilla"
+                                                                        srcset="https://themify.org/ultra-coffee/wp-content/uploads/sites/12/2019/02/ketp-french-vamila-275x275.jpg 275w, https://themify.org/ultra-coffee/wp-content/uploads/sites/12/2019/02/ketp-french-vamila-300x300.jpg 300w, https://themify.org/ultra-coffee/wp-content/uploads/sites/12/2019/02/ketp-french-vamila-150x150.jpg 150w, https://themify.org/ultra-coffee/wp-content/uploads/sites/12/2019/02/ketp-french-vamila-100x100.jpg 100w, https://themify.org/ultra-coffee/wp-content/uploads/sites/12/2019/02/ketp-french-vamila-600x600.jpg 600w, https://themify.org/ultra-coffee/wp-content/uploads/sites/12/2019/02/ketp-french-vamila-47x48.jpg 47w, https://themify.org/ultra-coffee/wp-content/uploads/sites/12/2019/02/ketp-french-vamila.jpg 560w"
+                                                                        sizes="(max-width: 275px) 100vw, 275px" /></noscript></a>
+                                                        </figure>
+                                                        <div class="post-content">
+                                                            <div class="product-content">
+                                                                <h3
+                                                                    class="product_title woocommerce-loop-product__title">
+                                                                    <a href="https://themify.org/ultra-coffee/product/keto-french-vanilla/"
+                                                                        title="Keto French Vanilla">Keto French
+                                                                        Vanilla</a></h3> <span class="price"><span
+                                                                        class="woocommerce-Price-amount amount"><bdi><span
+                                                                                class="woocommerce-Price-currencySymbol">&#36;</span>10.00</bdi></span></span>
+                                                                <p class="add-to-cart-button"><a href="?add-to-cart=55"
+                                                                        data-quantity="1"
+                                                                        class="button product_type_simple add_to_cart_button ajax_add_to_cart"
+                                                                        data-product_id="55" data-product_sku
+                                                                        aria-label="Add to cart: &ldquo;Keto French Vanilla&rdquo;"
+                                                                        aria-describedby rel="nofollow">Add to cart</a>
+                                                                </p>
+                                                            </div>
+                                                        </div>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                            <div class="module module-buttons tb_rjjw378 buttons-horizontal solid large squared"
+                                                data-lazy="1">
+                                                <div class="module-buttons-item tf_in_flx"><a
+                                                        href="https://themify.org/ultra-coffee/shop/"
+                                                        class="ui builder_button tf_in_flx brown">Explore Our
+                                                        Coffees</a></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </main>
+            </div>
+        </div>
+        <div id="footerwrap" class="tf_box tf_clear ">
+            <footer id="footer" class="tf_box pagewidth tf_scrollbar tf_rel tf_clearfix" itemscope="itemscope"
+                itemtype="https://schema.org/WPFooter">
+                <div class="back-top tf_textc tf_clearfix back-top-float back-top-hide">
+                    <div class="arrow-up"><a aria-label="Back to top" href="#header"><span
+                                class="screen-reader-text">Back To Top</span></a></div>
+                </div>
+                <div class="main-col first tf_clearfix">
+                    <div class="footer-left-wrap first">
+                        <div class="footer-logo-wrapper tf_clearfix">
+                            <div id="footer-logo"><a href="https://themify.org/ultra-coffee"
+                                    title="Coffee"><span>Coffee</span></a></div>
+                        </div>
+                    </div>
+                    <div class="footer-right-wrap">
+                        <div class="footer-nav-wrap"></div>
+                    </div>
+                </div>
+                <div class="section-col tf_clearfix">
+                    <div class="footer-widgets-wrap">
+                        <div class="footer-widgets tf_clearfix">
+                            <div class="col4-1 first tf_box tf_float">
+                                <div id="text-1002" class="widget widget_text">
+                                    <h4 class="widgettitle">Coffee</h4>
+                                    <div class="textwidget">
+                                        <p>We’re excited to share the story that every bean can tell. Come on in, take a
+                                            sip, and explore with us!</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col4-1 tf_box tf_float">
+                                <div id="text-1003" class="widget widget_text">
+                                    <h4 class="widgettitle">Hours</h4>
+                                    <div class="textwidget">
+                                        <p>MON – FRI: 9AM – 11PM<br />
+                                            SAT – SUN: 5PM – 2AM<br />
+                                            Bar open only on weekends.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col4-1 tf_box tf_float">
+                                <div id="text-1004" class="widget widget_text">
+                                    <h4 class="widgettitle">Contact</h4>
+                                    <div class="textwidget">
+                                        <p>55 Adelaide St E,<br />
+                                            Toronto, ON, M5C 1K6<br />
+                                            Canada<br />
+                                            <a href="/cdn-cgi/l/email-protection#10797e767f506478757d7976693e7d75"><span
+                                                    class="__cf_email__"
+                                                    data-cfemail="21484f474e61424e474744440c524a484f0f424e4c">[email&#160;protected]</span></a>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col4-1 tf_box tf_float"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="footer-text tf_clear tf_clearfix">
+                    <div class="footer-text-inner">
+                        <div class="one">&copy; <a href="https://themify.org/ultra-coffee">Coffee</a> 2024</div>
+                        <div class="two">Powered by <a href="http://wordpress.org">WordPress</a> &bull; <a
+                                href="https://themify.me">Themify WordPress Themes</a></div>
+                    </div>
+                </div>
+            </footer>
+        </div>
+    </div>
+    <script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script>
+    <script id="tf_vars" data-no-optimize="1" data-noptimize="1" data-no-minify="1" data-cfasync="false" defer="defer"
+        src="data:text/javascript;base64,dmFyIHRoZW1pZnlTY3JpcHQgPSB7ImhlYWRlclR5cGUiOiJoZWFkZXItaG9yaXpvbnRhbCIsInN0aWNreV9oZWFkZXIiOiIiLCJwYWdlTG9hZGVyRWZmZWN0IjoiIiwiaW5maW5pdGVFbmFibGUiOiIwIiwiYWpheENhcnRTZWNvbmRzIjoiMTAwMCJ9Owp2YXIgdGJMb2NhbFNjcmlwdCA9IHsic2Nyb2xsSGlnaGxpZ2h0Ijp7InNwZWVkIjo5MDAuMDF9LCJhZGRvbnMiOnsicHJvZHVjdHMiOnsidmVyIjoiMy41LjQiLCJqcyI6Imh0dHBzOi8vdGhlbWlmeS5vcmcvdWx0cmEtY29mZmVlL3dwLWNvbnRlbnQvcGx1Z2lucy9idWlsZGVyLXdvb2NvbW1lcmNlL2Fzc2V0cy9zY3JpcHRzIn19fTsKdmFyIHRoZW1pZnlfdmFycyA9IHsibWVudV9wb2ludCI6IjkwMCIsImJyZWFrcG9pbnRzIjp7InRhYmxldF9sYW5kc2NhcGUiOls3NjksMTI4MF0sInRhYmxldCI6WzY4MSw3NjhdLCJtb2JpbGUiOjY4MH0sIndwIjoiNi41LjIiLCJhamF4X3VybCI6Imh0dHBzOi8vdGhlbWlmeS5vcmcvdWx0cmEtY29mZmVlL3dwLWFkbWluL2FkbWluLWFqYXgucGhwIiwibWFwX2tleSI6IkFJemFTeUFGS21Pa3NLcUlSb2lfQWdfMTcxMFE5emtRamowcjllUSIsIm1lbnVfdG9vbHRpcHMiOltdLCJwbHVnaW5fdXJsIjoiaHR0cHM6Ly90aGVtaWZ5Lm9yZy91bHRyYS1jb2ZmZWUvd3AtY29udGVudC9wbHVnaW5zIiwiY29udGVudF91cmwiOiJodHRwczovL3RoZW1pZnkub3JnL3VsdHJhLWNvZmZlZS93cC1jb250ZW50IiwiaW5jbHVkZXNfdXJsIjoiaHR0cHM6Ly90aGVtaWZ5Lm9yZy91bHRyYS1jb2ZmZWUvd3AtaW5jbHVkZXMvIiwidGhlbWVfdiI6IjcuNi41IiwiZW1haWxTdWIiOiJDaGVjayB0aGlzIG91dCEiLCJub3AiOiJDaGVjayB0aGlzIG91dCEiLCJsaWdodGJveCI6eyJpMThuIjp7InRDb3VudGVyIjoiJWN1cnIlIG9mICV0b3RhbCUifX0sIndjX3ZlcnNpb24iOiI4LjcuMCIsIndjX2pzIjp7ImpzLWNvb2tpZSI6Imh0dHBzOi8vdGhlbWlmeS5vcmcvdWx0cmEtY29mZmVlL3dwLWNvbnRlbnQvcGx1Z2lucy93b29jb21tZXJjZS9hc3NldHMvanMvanMtY29va2llL2pzLmNvb2tpZS5taW4uanM/dmVyPTIuMS40LXdjLjguNy4wIiwid2MtYWRkLXRvLWNhcnQiOiJodHRwczovL3RoZW1pZnkub3JnL3VsdHJhLWNvZmZlZS93cC1jb250ZW50L3BsdWdpbnMvd29vY29tbWVyY2UvYXNzZXRzL2pzL2Zyb250ZW5kL2FkZC10by1jYXJ0Lm1pbi5qcyIsIndjLWFkZC10by1jYXJ0LXZhcmlhdGlvbiI6Imh0dHBzOi8vdGhlbWlmeS5vcmcvdWx0cmEtY29mZmVlL3dwLWNvbnRlbnQvcGx1Z2lucy93b29jb21tZXJjZS9hc3NldHMvanMvZnJvbnRlbmQvYWRkLXRvLWNhcnQtdmFyaWF0aW9uLm1pbi5qcyIsIndjLWNhcnQtZnJhZ21lbnRzIjoiaHR0cHM6Ly90aGVtaWZ5Lm9yZy91bHRyYS1jb2ZmZWUvd3AtY29udGVudC9wbHVnaW5zL3dvb2NvbW1lcmNlL2Fzc2V0cy9qcy9mcm9udGVuZC9jYXJ0LWZyYWdtZW50cy5taW4uanMiLCJ3b29jb21tZXJjZSI6Imh0dHBzOi8vdGhlbWlmeS5vcmcvdWx0cmEtY29mZmVlL3dwLWNvbnRlbnQvcGx1Z2lucy93b29jb21tZXJjZS9hc3NldHMvanMvZnJvbnRlbmQvd29vY29tbWVyY2UubWluLmpzIiwid2Mtc2luZ2xlLXByb2R1Y3QiOiJodHRwczovL3RoZW1pZnkub3JnL3VsdHJhLWNvZmZlZS93cC1jb250ZW50L3BsdWdpbnMvd29vY29tbWVyY2UvYXNzZXRzL2pzL2Zyb250ZW5kL3NpbmdsZS1wcm9kdWN0Lm1pbi5qcyJ9LCJwaG90b3N3aXBlIjp7Im1haW4iOiJodHRwczovL3RoZW1pZnkub3JnL3VsdHJhLWNvZmZlZS93cC1jb250ZW50L3BsdWdpbnMvd29vY29tbWVyY2UvYXNzZXRzL2Nzcy9waG90b3N3aXBlL3Bob3Rvc3dpcGUubWluLmNzcyIsInNraW4iOiJodHRwczovL3RoZW1pZnkub3JnL3VsdHJhLWNvZmZlZS93cC1jb250ZW50L3BsdWdpbnMvd29vY29tbWVyY2UvYXNzZXRzL2Nzcy9waG90b3N3aXBlL2RlZmF1bHQtc2tpbi9kZWZhdWx0LXNraW4ubWluLmNzcyJ9LCJkb25lIjp7InRmX3NlYXJjaF9mb3JtIjp0cnVlLCJ0Yl9mYW5jeS1oZWFkaW5nIjp0cnVlLCJ0Yl9pbWFnZSI6dHJ1ZSwidGJfaW1hZ2VfY2VudGVyIjp0cnVlLCJ0Yl9idXR0b25zIjp0cnVlLCJ0Yl90ZXh0Ijp0cnVlLCJ0Yl9jb2xvciI6dHJ1ZSwidGJfY292ZXIiOnRydWUsInRiX2ltYWdlX2xlZnQiOnRydWUsInRiX3NlcnZpY2UtbWVudSI6dHJ1ZSwidGJfc2VydmljZS1tZW51X2hvcml6b250YWwiOnRydWUsInRiX3NlcnZpY2UtbWVudV9wcmljZSI6dHJ1ZSwidGJfaW1hZ2VfcmlnaHQiOnRydWUsInRiX2J1dHRvbnNfb3V0bGluZSI6dHJ1ZSwidGJfcHJvZHVjdHMiOnRydWUsInRmX2dyaWRfdGhlbWVfZ3JpZDQiOnRydWUsInRmX2dyaWRfZ3JpZDQiOnRydWUsInRiX3N0eWxlIjp0cnVlLCJ0Zl90aGVtZV93aWRnZXRfdGV4dCI6dHJ1ZX19O3ZhciB3Y19hZGRfdG9fY2FydF9wYXJhbXMgPSB7ImFqYXhfdXJsIjoiXC91bHRyYS1jb2ZmZWVcL3dwLWFkbWluXC9hZG1pbi1hamF4LnBocCIsIndjX2FqYXhfdXJsIjoiXC91bHRyYS1jb2ZmZWVcLz93Yy1hamF4PSUlZW5kcG9pbnQlJSIsImkxOG5fdmlld19jYXJ0IjoiVmlldyBjYXJ0IiwiY2FydF91cmwiOiJodHRwczpcL1wvdGhlbWlmeS5vcmdcL3VsdHJhLWNvZmZlZVwvY2FydFwvIiwiaXNfY2FydCI6IiIsImNhcnRfcmVkaXJlY3RfYWZ0ZXJfYWRkIjoibm8ifTt2YXIgd2NfYWRkX3RvX2NhcnRfdmFyaWF0aW9uX3BhcmFtcyA9IHsid2NfYWpheF91cmwiOiJcL3VsdHJhLWNvZmZlZVwvP3djLWFqYXg9JSVlbmRwb2ludCUlIiwiaTE4bl9ub19tYXRjaGluZ192YXJpYXRpb25zX3RleHQiOiJTb3JyeSwgbm8gcHJvZHVjdHMgbWF0Y2hlZCB5b3VyIHNlbGVjdGlvbi4gUGxlYXNlIGNob29zZSBhIGRpZmZlcmVudCBjb21iaW5hdGlvbi4iLCJpMThuX21ha2VfYV9zZWxlY3Rpb25fdGV4dCI6IlBsZWFzZSBzZWxlY3Qgc29tZSBwcm9kdWN0IG9wdGlvbnMgYmVmb3JlIGFkZGluZyB0aGlzIHByb2R1Y3QgdG8geW91ciBjYXJ0LiIsImkxOG5fdW5hdmFpbGFibGVfdGV4dCI6IlNvcnJ5LCB0aGlzIHByb2R1Y3QgaXMgdW5hdmFpbGFibGUuIFBsZWFzZSBjaG9vc2UgYSBkaWZmZXJlbnQgY29tYmluYXRpb24uIn07dmFyIHdjX2NhcnRfZnJhZ21lbnRzX3BhcmFtcyA9IHsiYWpheF91cmwiOiJcL3VsdHJhLWNvZmZlZVwvd3AtYWRtaW5cL2FkbWluLWFqYXgucGhwIiwid2NfYWpheF91cmwiOiJcL3VsdHJhLWNvZmZlZVwvP3djLWFqYXg9JSVlbmRwb2ludCUlIiwiY2FydF9oYXNoX2tleSI6IndjX2NhcnRfaGFzaF8yMzhlODQxMWZiMWJkNzFkZmJiMzI1NmZkNzc1Zjk5MSIsImZyYWdtZW50X25hbWUiOiJ3Y19mcmFnbWVudHNfMjM4ZTg0MTFmYjFiZDcxZGZiYjMyNTZmZDc3NWY5OTEiLCJyZXF1ZXN0X3RpbWVvdXQiOiI1MDAwIn07dmFyIHdvb2NvbW1lcmNlX3BhcmFtcyA9IHsiYWpheF91cmwiOiJcL3VsdHJhLWNvZmZlZVwvd3AtYWRtaW5cL2FkbWluLWFqYXgucGhwIiwid2NfYWpheF91cmwiOiJcL3VsdHJhLWNvZmZlZVwvP3djLWFqYXg9JSVlbmRwb2ludCUlIn07dmFyIHdjX3NpbmdsZV9wcm9kdWN0X3BhcmFtcyA9IHsiaTE4bl9yZXF1aXJlZF9yYXRpbmdfdGV4dCI6IlBsZWFzZSBzZWxlY3QgYSByYXRpbmciLCJyZXZpZXdfcmF0aW5nX3JlcXVpcmVkIjoieWVzIiwiZmxleHNsaWRlciI6eyJydGwiOmZhbHNlLCJhbmltYXRpb24iOiJzbGlkZSIsInNtb290aEhlaWdodCI6dHJ1ZSwiZGlyZWN0aW9uTmF2IjpmYWxzZSwiY29udHJvbE5hdiI6InRodW1ibmFpbHMiLCJzbGlkZXNob3ciOmZhbHNlLCJhbmltYXRpb25TcGVlZCI6NTAwLCJhbmltYXRpb25Mb29wIjpmYWxzZSwiYWxsb3dPbmVTbGlkZSI6ZmFsc2V9LCJ6b29tX2VuYWJsZWQiOiIxIiwiem9vbV9vcHRpb25zIjpbXSwicGhvdG9zd2lwZV9lbmFibGVkIjoiMSIsInBob3Rvc3dpcGVfb3B0aW9ucyI6eyJzaGFyZUVsIjpmYWxzZSwiY2xvc2VPblNjcm9sbCI6ZmFsc2UsImhpc3RvcnkiOmZhbHNlLCJoaWRlQW5pbWF0aW9uRHVyYXRpb24iOjAsInNob3dBbmltYXRpb25EdXJhdGlvbiI6MH0sImZsZXhzbGlkZXJfZW5hYmxlZCI6IjEifTs="></script>
+    <script defer="defer" data-v="7.7.1" data-pl-href="https://themify.org/ultra-coffee/wp-content/plugins/fake.css"
+        data-no-optimize="1" data-noptimize="1"
+        src="https://themify.org/ultra-coffee/wp-content/themes/themify-ultra/themify/js/main.js?ver=7.7.1"
+        id="themify-main-script-js"></script>
+    <script defer="defer"
+        src="https://themify.org/ultra-coffee/wp-content/plugins/woocommerce/assets/js/sourcebuster/sourcebuster.min.js?ver=8.7.0"
+        id="sourcebuster-js-js"></script>
+    <script id="wc-order-attribution-js-extra">
+        var wc_order_attribution = { "params": { "lifetime": 1.0e-5, "session": 30, "ajaxurl": "https:\/\/themify.org\/ultra-coffee\/wp-admin\/admin-ajax.php", "prefix": "wc_order_attribution_", "allowTracking": true }, "fields": { "source_type": "current.typ", "referrer": "current_add.rf", "utm_campaign": "current.cmp", "utm_source": "current.src", "utm_medium": "current.mdm", "utm_content": "current.cnt", "utm_id": "current.id", "utm_term": "current.trm", "session_entry": "current_add.ep", "session_start_time": "current_add.fd", "session_pages": "session.pgs", "session_count": "udata.vst", "user_agent": "udata.uag" } };
+    </script>
+    <script defer="defer"
+        src="https://themify.org/ultra-coffee/wp-content/plugins/woocommerce/assets/js/frontend/order-attribution.min.js?ver=8.7.0"
+        id="wc-order-attribution-js"></script>
+    <script
+        type="application/ld+json">[{"@context":"https:\/\/schema.org","@type":"WebSite","url":"https:\/\/themify.org\/ultra-coffee","potentialAction":{"@type":"SearchAction","target":"https:\/\/themify.org\/ultra-coffee?s={search_term_string}","query-input":"required name=search_term_string"}},{"@context":"https:\/\/schema.org","@type":"WebPage","mainEntityOfPage":{"@type":"WebPage","@id":"https:\/\/themify.org\/ultra-coffee\/"},"headline":"Home","datePublished":"2019-02-11T06:24:26+00:00","dateModified":"2019-02-11T06:24:26+00:00","description":""},{"@context":"https:\/\/schema.org","@type":"Product","name":"Duo Coffee Steeper","description":"Aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem","sku":"","brand":"","offers":{"@type":"Offer","price":"99","priceCurrency":"USD","priceValidUntil":"","availability":"https:\/\/schema.org\/InStock","url":"https:\/\/themify.org\/ultra-coffee\/product\/duo-coffee-steeper\/"},"image":{"@type":"ImageObject","url":"https:\/\/themify.org\/ultra-coffee\/wp-content\/uploads\/sites\/12\/2019\/02\/duo-coffee-mixer.jpg","width":560,"height":560}},{"@context":"https:\/\/schema.org","@type":"Product","name":"Dukune Rwanda Coffee","description":"Neque porro quisquam. Voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.","sku":"","brand":"","offers":{"@type":"Offer","price":"10","priceCurrency":"USD","priceValidUntil":"","availability":"https:\/\/schema.org\/InStock","url":"https:\/\/themify.org\/ultra-coffee\/product\/dukune-rwanda-coffee\/"},"image":{"@type":"ImageObject","url":"https:\/\/themify.org\/ultra-coffee\/wp-content\/uploads\/sites\/12\/2019\/02\/original-rwanda-coffee.jpg","width":560,"height":560}},{"@context":"https:\/\/schema.org","@type":"Product","name":"Premium Le Mans Coffee","description":"Eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.","sku":"","brand":"","offers":{"@type":"Offer","price":"25","priceCurrency":"USD","priceValidUntil":"","availability":"https:\/\/schema.org\/InStock","url":"https:\/\/themify.org\/ultra-coffee\/product\/premium-le-mans-coffee\/"},"image":{"@type":"ImageObject","url":"https:\/\/themify.org\/ultra-coffee\/wp-content\/uploads\/sites\/12\/2019\/02\/lemans-drive-coffee.jpg","width":560,"height":560}},{"@context":"https:\/\/schema.org","@type":"Product","name":"Keto French Vanilla","description":"Totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.\r\n","sku":"","brand":"","offers":{"@type":"Offer","price":"10","priceCurrency":"USD","priceValidUntil":"","availability":"https:\/\/schema.org\/InStock","url":"https:\/\/themify.org\/ultra-coffee\/product\/keto-french-vanilla\/"},"image":{"@type":"ImageObject","url":"https:\/\/themify.org\/ultra-coffee\/wp-content\/uploads\/sites\/12\/2019\/02\/ketp-french-vamila.jpg","width":560,"height":560}}]</script>
+    <script defer
+        src="https://static.cloudflareinsights.com/beacon.min.js/v55bfa2fee65d44688e90c00735ed189a1713218998793"
+        integrity="sha512-FIKRFRxgD20moAo96hkZQy/5QojZDAbyx0mQ17jEGHCJc/vi0G2HXLtofwD7Q3NmivvP9at5EVgbRqOaOQb+Rg=="
+        data-cf-beacon='{"rayId":"87aff0638e3f8545","version":"2024.4.0","token":"84d4c22c18a142aeb4979274af99b548"}'
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
